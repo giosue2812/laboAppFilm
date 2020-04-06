@@ -13,7 +13,7 @@ class Utilisateur implements UserInterface
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
-     * @ORM\Column(type="bigint")
+     * @ORM\Column(type="integer")
      */
     private $id;
 
@@ -59,6 +59,7 @@ class Utilisateur implements UserInterface
     private $ad_ville;
 
     /**
+     * @ORM\Column(type="integer")
      * @ORM\ManyToOne(targetEntity="Role")
      * @ORM\JoinColumn(name="id_role",referencedColumnName="id")
      */

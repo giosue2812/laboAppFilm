@@ -13,7 +13,7 @@ class Film
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
-     * @ORM\Column(type="bigint")
+     * @ORM\Column(type="integer")
      */
     private $id;
 
@@ -38,6 +38,7 @@ class Film
     private $bande_annoce;
 
     /**
+     * @ORM\Column(type="integer")
      * @ORM\ManyToOne(targetEntity="Personne")
      * @ORM\JoinColumn(name="id_real",referencedColumnName="id")
      */
@@ -46,8 +47,8 @@ class Film
     /**
      * @ORM\ManyToMany(targetEntity="Personne")
      * @ORM\JoinTable(name="acteur_film",
-     *  joinColumns={@ORM\JoinColumn(name="id_personne",referencedColumnName="id")},
-     *     inverseJoinColumns={@ORM\JoinColumn(name="id_film",referencedColumnName="id")}
+     *  joinColumns={@ORM\JoinColumn(name="id_film",referencedColumnName="id")},
+     *     inverseJoinColumns={@ORM\JoinColumn(name="id_personne",referencedColumnName="id")}
      * )
      */
     private $personnes;
@@ -138,4 +139,23 @@ class Film
 
         return $this;
     }
+
+    /**
+     * @return ArrayCollection
+     */
+    public function getPersonnes(): ArrayCollection
+    {
+        return $this->personnes;
+    }
+
+    /**
+     * @param ArrayCollection $personnes
+     * @return Film
+     */
+    public function setPersonnes(ArrayCollection $personnes): Film
+    {
+        $this->personnes = $personnes;
+        return $this;
+    }
+
 }
