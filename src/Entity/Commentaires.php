@@ -27,12 +27,14 @@ class Commentaires
     private $content;
 
     /**
+     * @ORM\Column(type="integer")
      * @ORM\ManyToOne(targetEntity="Film")
      * @ORM\JoinColumn(name="id_film",referencedColumnName="id")
      */
     private $id_film;
 
     /**
+     * @ORM\Column(type="integer")
      * @ORM\ManyToOne(targetEntity="Utilisateur")
      * @ORM\JoinColumn(name="id_utilisateur",referencedColumnName="id")
      */
