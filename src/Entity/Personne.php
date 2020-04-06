@@ -13,7 +13,7 @@ class Personne
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
-     * @ORM\Column(type="bigint")
+     * @ORM\Column(type="integer")
      */
     private $id;
 
