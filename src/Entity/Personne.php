@@ -3,7 +3,6 @@
 namespace App\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -14,183 +13,114 @@ class Personne
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="bigint")
      */
     private $id;
+
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", length=50)
      */
     private $nom;
+
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", length=50)
      */
     private $prenom;
+
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", length=50)
      */
     private $ad_rue;
+
     /**
      * @ORM\Column(type="bigint")
      */
     private $ad_code_postal;
+
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", length=50)
      */
     private $ad_ville;
+
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="integer", nullable=true)
      */
     private $tel;
-
-    /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\ActeurFilm", mappedBy="id_personne")
-     */
-    private $acteurFilms;
-
-    public function __construct()
-    {
-        $this->acteurFilms = new ArrayCollection();
-    }
 
     public function getId(): ?int
     {
         return $this->id;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getNom()
+    public function getNom(): ?string
     {
         return $this->nom;
     }
 
-    /**
-     * @param mixed $nom
-     * @return Personne
-     */
-    public function setNom($nom)
+    public function setNom(string $nom): self
     {
         $this->nom = $nom;
+
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getPrenom()
+    public function getPrenom(): ?string
     {
         return $this->prenom;
     }
 
-    /**
-     * @param mixed $prenom
-     * @return Personne
-     */
-    public function setPrenom($prenom)
+    public function setPrenom(string $prenom): self
     {
         $this->prenom = $prenom;
+
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getAdRue()
+    public function getAdRue(): ?string
     {
         return $this->ad_rue;
     }
 
-    /**
-     * @param mixed $ad_rue
-     * @return Personne
-     */
-    public function setAdRue($ad_rue)
+    public function setAdRue(string $ad_rue): self
     {
         $this->ad_rue = $ad_rue;
+
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getAdCodePostal()
+    public function getAdCodePostal(): ?int
     {
         return $this->ad_code_postal;
     }
 
-    /**
-     * @param mixed $ad_code_postal
-     * @return Personne
-     */
-    public function setAdCodePostal($ad_code_postal)
+    public function setAdCodePostal(int $ad_code_postal): self
     {
         $this->ad_code_postal = $ad_code_postal;
+
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getAdVille()
+    public function getAdVille(): ?string
     {
         return $this->ad_ville;
     }
 
-    /**
-     * @param mixed $ad_ville
-     * @return Personne
-     */
-    public function setAdVille($ad_ville)
+    public function setAdVille(string $ad_ville): self
     {
         $this->ad_ville = $ad_ville;
+
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getTel()
+    public function getTel(): ?int
     {
         return $this->tel;
     }
 
-    /**
-     * @param mixed $tel
-     * @return Personne
-     */
-    public function setTel($tel)
+    public function setTel(?int $tel): self
     {
         $this->tel = $tel;
-        return $this;
-    }
-
-    /**
-     * @return Collection|ActeurFilm[]
-     */
-    public function getActeurFilms(): Collection
-    {
-        return $this->acteurFilms;
-    }
-
-    public function addActeurFilm(ActeurFilm $acteurFilm): self
-    {
-        if (!$this->acteurFilms->contains($acteurFilm)) {
-            $this->acteurFilms[] = $acteurFilm;
-            $acteurFilm->addIdPersonne($this);
-        }
 
         return $this;
     }
-
-    public function removeActeurFilm(ActeurFilm $acteurFilm): self
-    {
-        if ($this->acteurFilms->contains($acteurFilm)) {
-            $this->acteurFilms->removeElement($acteurFilm);
-            $acteurFilm->removeIdPersonne($this);
-        }
-
-        return $this;
-    }
-
 }

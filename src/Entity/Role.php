@@ -12,12 +12,12 @@ class Role
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="bigint")
      */
     private $id;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", length=50, nullable=true)
      */
     private $label;
 
@@ -26,22 +26,15 @@ class Role
         return $this->id;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getLabel()
+    public function getLabel(): ?string
     {
         return $this->label;
     }
 
-    /**
-     * @param mixed $label
-     * @return Role
-     */
-    public function setLabel($label)
+    public function setLabel(?string $label): self
     {
         $this->label = $label;
+
         return $this;
     }
-
 }

@@ -2,20 +2,18 @@
 
 namespace App\Entity;
 
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\UserRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\UtilisateurRepository")
  */
-class User implements UserInterface
+class Utilisateur implements UserInterface
 {
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="bigint")
      */
     private $id;
 
@@ -30,46 +28,41 @@ class User implements UserInterface
     private $roles = [];
 
     /**
-     * @ORM\Column(type="string")
-     */
-    private $nom;
-    /**
-     * @ORM\Column(type="string")
-     */
-    private $prenom;
-    /**
-     * @ORM\Column(type="string")
-     */
-    private $ad_rue;
-    /**
-     * @ORM\Column(type="bigint")
-     */
-    private $ad_code_postal;
-    /**
-     * @ORM\Column(type="string")
-     */
-    private $ad_ville;
-    /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Role",inversedBy="user")
-     */
-    private $id_role;
-
-    private function __construct()
-    {
-        $this->id_role = new ArrayCollection();
-        $this->commentaires = new ArrayCollection();
-    }
-
-    /**
      * @var string The hashed password
      * @ORM\Column(type="string")
      */
     private $password;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Commentaire", mappedBy="id_utilsateur")
+     * @ORM\Column(type="string", length=50)
      */
-    private $commentaires;
+    private $nom;
+
+    /**
+     * @ORM\Column(type="string", length=50)
+     */
+    private $prenom;
+
+    /**
+     * @ORM\Column(type="string", length=50)
+     */
+    private $ad_rue;
+
+    /**
+     * @ORM\Column(type="bigint")
+     */
+    private $ad_code_postal;
+
+    /**
+     * @ORM\Column(type="string", length=50)
+     */
+    private $ad_ville;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Role")
+     * @ORM\JoinColumn(name="id_role",referencedColumnName="id")
+     */
+    private $id_role;
 
     public function getId(): ?int
     {
@@ -149,143 +142,75 @@ class User implements UserInterface
         // $this->plainPassword = null;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getNom()
+    public function getNom(): ?string
     {
         return $this->nom;
     }
 
-    /**
-     * @param mixed $nom
-     * @return User
-     */
-    public function setNom($nom)
+    public function setNom(string $nom): self
     {
         $this->nom = $nom;
+
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getPrenom()
+    public function getPrenom(): ?string
     {
         return $this->prenom;
     }
 
-    /**
-     * @param mixed $prenom
-     * @return User
-     */
-    public function setPrenom($prenom)
+    public function setPrenom(string $prenom): self
     {
         $this->prenom = $prenom;
+
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getAdRue()
+    public function getAdRue(): ?string
     {
         return $this->ad_rue;
     }
 
-    /**
-     * @param mixed $ad_rue
-     * @return User
-     */
-    public function setAdRue($ad_rue)
+    public function setAdRue(string $ad_rue): self
     {
         $this->ad_rue = $ad_rue;
+
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getAdCodePostal()
+    public function getAdCodePostal(): ?int
     {
         return $this->ad_code_postal;
     }
 
-    /**
-     * @param mixed $ad_code_postal
-     * @return User
-     */
-    public function setAdCodePostal($ad_code_postal)
+    public function setAdCodePostal(int $ad_code_postal): self
     {
         $this->ad_code_postal = $ad_code_postal;
+
         return $this;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getAdVille()
+    public function getAdVille(): ?string
     {
         return $this->ad_ville;
     }
 
-    /**
-     * @param mixed $ad_ville
-     * @return User
-     */
-    public function setAdVille($ad_ville)
+    public function setAdVille(string $ad_ville): self
     {
         $this->ad_ville = $ad_ville;
+
         return $this;
     }
 
-    /**
-     * @return Collection|Role[]
-     */
-    public function getIdRole(): Collection
+    public function getIdRole(): ?int
     {
         return $this->id_role;
     }
 
-    /**
-     * @param mixed $id_role
-     * @return User
-     */
-    public function setIdRole($id_role)
+    public function setIdRole(?int $id_role): self
     {
         $this->id_role = $id_role;
-        return $this;
-    }
-
-    /**
-     * @return Collection|Commentaire[]
-     */
-    public function getCommentaires(): Collection
-    {
-        return $this->commentaires;
-    }
-
-    public function addCommentaire(Commentaire $commentaire): self
-    {
-        if (!$this->commentaires->contains($commentaire)) {
-            $this->commentaires[] = $commentaire;
-            $commentaire->setIdUtilsateur($this);
-        }
 
         return $this;
     }
-
-    public function removeCommentaire(Commentaire $commentaire): self
-    {
-        if ($this->commentaires->contains($commentaire)) {
-            $this->commentaires->removeElement($commentaire);
-            // set the owning side to null (unless already changed)
-            if ($commentaire->getIdUtilsateur() === $this) {
-                $commentaire->setIdUtilsateur(null);
-            }
-        }
-
-        return $this;
-    }
-
 }
