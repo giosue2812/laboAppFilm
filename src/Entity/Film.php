@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
+use JMS\Serializer\Annotation as Serializer;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\FilmRepository")
@@ -19,11 +20,13 @@ class Film
 
     /**
      * @ORM\Column(type="string", length=50,unique=true)
+     * @Serializer\Groups("list")
      */
     private $titre;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Serializer\Groups("list")
      */
     private $description;
 
