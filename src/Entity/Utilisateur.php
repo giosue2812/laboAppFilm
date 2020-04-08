@@ -59,11 +59,10 @@ class Utilisateur implements UserInterface
     private $ad_ville;
 
     /**
-     * @ORM\Column(type="integer")
-     * @ORM\ManyToOne(targetEntity="Role")
-     * @ORM\JoinColumn(name="id_role",referencedColumnName="id")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Role")
+     * @ORM\JoinColumn(name="roles_id",referencedColumnName="id")
      */
-    private $id_role;
+    private $roles_id;
 
     public function getId(): ?int
     {
@@ -203,14 +202,18 @@ class Utilisateur implements UserInterface
         return $this;
     }
 
-    public function getIdRole(): ?int
+    public function getRolesId(): ?int
     {
-        return $this->id_role;
+        return $this->roles_id;
     }
 
-    public function setIdRole(?int $id_role): self
+    /**
+     * @param Role $roles_id
+     * @return $this
+     */
+    public function setRolesId($roles_id): self
     {
-        $this->id_role = $id_role;
+        $this->roles_id = $roles_id;
 
         return $this;
     }

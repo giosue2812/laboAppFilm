@@ -27,18 +27,16 @@ class Commentaires
     private $content;
 
     /**
-     * @ORM\Column(type="integer")
-     * @ORM\ManyToOne(targetEntity="Film")
-     * @ORM\JoinColumn(name="id_film",referencedColumnName="id")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Utilisateur")
+     * @ORM\JoinColumn(name="utilisateurs_id",referencedColumnName="id")
      */
-    private $id_film;
+    private $utilsateurs;
 
     /**
-     * @ORM\Column(type="integer")
-     * @ORM\ManyToOne(targetEntity="Utilisateur")
-     * @ORM\JoinColumn(name="id_utilisateur",referencedColumnName="id")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Film")
+     * @ORM\JoinColumn(name="films_id",referencedColumnName="id")
      */
-    private $id_utilisateur;
+    private $films;
 
     public function getId(): ?int
     {
@@ -69,26 +67,34 @@ class Commentaires
         return $this;
     }
 
-    public function getIdFilm(): ?int
+    public function getFilms(): ?int
     {
-        return $this->id_film;
+        return $this->films;
     }
 
-    public function setIdFilm(int $id_film): self
+    /**
+     * @param Film $films
+     * @return $this
+     */
+    public function setFilms($films): self
     {
-        $this->id_film = $id_film;
+        $this->films = $films;
 
         return $this;
     }
 
-    public function getIdUtilisateur(): ?int
+    public function getUtilsateurs(): ?int
     {
-        return $this->id_utilisateur;
+        return $this->utilsateurs;
     }
 
-    public function setIdUtilisateur(int $id_utilisateur): self
+    /**
+     * @param Utilisateur $utilsateurs
+     * @return $this
+     */
+    public function setUtilisateurs($utilsateurs): self
     {
-        $this->id_utilisateur = $id_utilisateur;
+        $this->utilsateurs = $utilsateurs;
 
         return $this;
     }

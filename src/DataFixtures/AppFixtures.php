@@ -10,6 +10,8 @@ use App\Entity\Utilisateur;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Persistence\ObjectManager;
+use Metadata\Tests\Driver\Fixture\A\A;
+use Symfony\Component\Cache\Adapter\ArrayAdapter;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 use Symfony\Component\Security\Http\RememberMe\PersistentTokenBasedRememberMeServices;
 
@@ -29,7 +31,7 @@ class AppFixtures extends Fixture
         $user = new Utilisateur();
         $role = new Role();
         $film = new Film();
-        $personne = new Personne();
+        $personneReal = new Personne();
         $personneAct = new Personne();
         $commentaire = new Commentaires();
 
@@ -45,18 +47,18 @@ class AppFixtures extends Fixture
         $user->setAdCodePostal(1480);
         $user->setAdVille('Saintes');
         $user->setPseudo('angelus2812');
-        $user->setIdRole($role->getId());
+        $user->setRolesId($role);
         $user->setRoles([$role->getLabel()]);
         $user->setPassword($this->encoder->encodePassword($user,'Elisa2812'));
         $manager->persist($user);
         $manager->flush();
 
-        $personne->setNom('Kane');
-        $personne->setPrenom('Bob');
-        $personne->setAdRue('Rue des martir 11');
-        $personne->setAdCodePostal(50045);
-        $personne->setAdVille('Paris');
-        $manager->persist($personne);
+        $personneReal->setNom('Kane');
+        $personneReal->setPrenom('Bob');
+        $personneReal->setAdRue('Rue des martir 11');
+        $personneReal->setAdCodePostal(50045);
+        $personneReal->setAdVille('Paris');
+        $manager->persist($personneReal);
         $manager->flush();
 
         $personneAct->setNom('Bale');
@@ -70,15 +72,15 @@ class AppFixtures extends Fixture
         $film->setTitre('Batman');
         $film->setDescription('Film avec Christian Bale');
         $film->setDateSortie($date->setDate('2020', '10','20'));
-        $film->setIdReal($personne->getId());
+        $film->setPersonnes(new ArrayCollection([$personneReal]));
         $film->setPersonnes(new ArrayCollection([$personneAct]));
         $manager->persist($film);
         $manager->flush();
 
         $commentaire->setFilm($film->getTitre());
-        $commentaire->setIdUtilisateur($user->getId());
+        $commentaire->setUtilisateurs($user);
         $commentaire->setContent('Super Film');
-        $commentaire->setIdFilm($film->getId());
+        $commentaire->setFilms($film);
         $manager->persist($commentaire);
         $manager->flush();
     }

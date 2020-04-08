@@ -38,13 +38,6 @@ class Film
     private $bande_annoce;
 
     /**
-     * @ORM\Column(type="integer")
-     * @ORM\ManyToOne(targetEntity="Personne")
-     * @ORM\JoinColumn(name="id_real",referencedColumnName="id")
-     */
-    private $id_real;
-
-    /**
      * @ORM\ManyToMany(targetEntity="Personne")
      * @ORM\JoinTable(name="acteur_film",
      *  joinColumns={@ORM\JoinColumn(name="id_film",referencedColumnName="id")},
@@ -112,18 +105,6 @@ class Film
     public function setBandeAnnoce(?string $bande_annoce): self
     {
         $this->bande_annoce = $bande_annoce;
-
-        return $this;
-    }
-
-    public function getIdReal(): ?int
-    {
-        return $this->id_real;
-    }
-
-    public function setIdReal(int $id_real): self
-    {
-        $this->id_real = $id_real;
 
         return $this;
     }
