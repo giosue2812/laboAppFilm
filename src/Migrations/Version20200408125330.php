@@ -10,7 +10,7 @@ use Doctrine\Migrations\AbstractMigration;
 /**
  * Auto-generated Migration: Please modify to your needs!
  */
-final class Version20200408080634 extends AbstractMigration
+final class Version20200408125330 extends AbstractMigration
 {
     public function getDescription() : string
     {
@@ -23,7 +23,9 @@ final class Version20200408080634 extends AbstractMigration
         $this->abortIf($this->connection->getDatabasePlatform()->getName() !== 'mysql', 'Migration can only be executed safely on \'mysql\'.');
 
         $this->addSql('ALTER TABLE commentaires CHANGE utilisateurs_id utilisateurs_id INT DEFAULT NULL, CHANGE films_id films_id INT DEFAULT NULL, CHANGE content content VARCHAR(255) DEFAULT NULL, CHANGE film film VARCHAR(50) DEFAULT NULL');
-        $this->addSql('ALTER TABLE film CHANGE description description VARCHAR(255) DEFAULT NULL, CHANGE date_sortie date_sortie DATE DEFAULT NULL, CHANGE bande_annoce bande_annoce VARCHAR(255) DEFAULT NULL, CHANGE images images VARCHAR(255) DEFAULT NULL');
+        $this->addSql('ALTER TABLE film ADD realisateurs INT DEFAULT NULL, CHANGE description description VARCHAR(255) DEFAULT NULL, CHANGE date_sortie date_sortie DATE DEFAULT NULL, CHANGE bande_annoce bande_annoce VARCHAR(255) DEFAULT NULL, CHANGE image image VARCHAR(255) DEFAULT NULL');
+        $this->addSql('ALTER TABLE film ADD CONSTRAINT FK_8244BE22414C832E FOREIGN KEY (realisateurs) REFERENCES personne (id)');
+        $this->addSql('CREATE INDEX IDX_8244BE22414C832E ON film (realisateurs)');
         $this->addSql('ALTER TABLE personne CHANGE tel tel INT DEFAULT NULL');
         $this->addSql('ALTER TABLE role CHANGE label label VARCHAR(50) DEFAULT NULL');
         $this->addSql('ALTER TABLE utilisateur CHANGE roles_id roles_id INT DEFAULT NULL, CHANGE roles roles JSON NOT NULL');
@@ -35,7 +37,9 @@ final class Version20200408080634 extends AbstractMigration
         $this->abortIf($this->connection->getDatabasePlatform()->getName() !== 'mysql', 'Migration can only be executed safely on \'mysql\'.');
 
         $this->addSql('ALTER TABLE commentaires CHANGE utilisateurs_id utilisateurs_id INT DEFAULT NULL, CHANGE films_id films_id INT DEFAULT NULL, CHANGE film film VARCHAR(50) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`, CHANGE content content VARCHAR(255) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`');
-        $this->addSql('ALTER TABLE film CHANGE description description VARCHAR(255) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`, CHANGE date_sortie date_sortie DATE DEFAULT \'NULL\', CHANGE bande_annoce bande_annoce VARCHAR(255) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`, CHANGE images images VARCHAR(255) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`');
+        $this->addSql('ALTER TABLE film DROP FOREIGN KEY FK_8244BE22414C832E');
+        $this->addSql('DROP INDEX IDX_8244BE22414C832E ON film');
+        $this->addSql('ALTER TABLE film DROP realisateurs, CHANGE description description VARCHAR(255) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`, CHANGE date_sortie date_sortie DATE DEFAULT \'NULL\', CHANGE bande_annoce bande_annoce VARCHAR(255) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`, CHANGE image image VARCHAR(255) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`');
         $this->addSql('ALTER TABLE personne CHANGE tel tel INT DEFAULT NULL');
         $this->addSql('ALTER TABLE role CHANGE label label VARCHAR(50) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`');
         $this->addSql('ALTER TABLE utilisateur CHANGE roles_id roles_id INT DEFAULT NULL, CHANGE roles roles LONGTEXT CHARACTER SET utf8mb4 NOT NULL COLLATE `utf8mb4_bin`');

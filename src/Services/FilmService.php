@@ -5,6 +5,7 @@ namespace App\Services;
 
 
 use App\Repository\FilmRepository;
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\EntityManagerInterface;
 
 class FilmService
@@ -27,5 +28,10 @@ class FilmService
     public function list()
     {
         return $this->repository->findAll();
+    }
+
+    public function detail($id)
+    {
+        return $film = $this->repository->find($id);
     }
 }

@@ -74,6 +74,9 @@ class AppFixtures extends Fixture
         $film->setDateSortie($date->setDate('2020', '10','20'));
         $film->setPersonnes(new ArrayCollection([$personneReal]));
         $film->setPersonnes(new ArrayCollection([$personneAct]));
+        $film->setRealisateurs($personneReal);
+        $film->setBandeAnnoce('https://www.youtube.com/watch?v=neY2xVmOfUM');
+        $film->setImage('http://localhost:8080/LaboAppFilm/BackEnd/public/images/Batman_Begins.jpg');
         $manager->persist($film);
         $manager->flush();
 

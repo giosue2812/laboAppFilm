@@ -5,8 +5,7 @@ namespace App\Controller;
 use App\Services\FilmService;
 use FOS\RestBundle\Controller\AbstractFOSRestController;
 use FOS\RestBundle\Controller\Annotations as Rest;
-use JMS\Serializer\Annotation as Serializer;
-
+use Symfony\Component\HttpFoundation\Request;
 
 class FilmController extends AbstractFOSRestController
 {
@@ -22,10 +21,21 @@ class FilmController extends AbstractFOSRestController
 
     /**
      * @Rest\Get(path="/api/films")
-     * @Rest\View(serializerGroups={"list"})
+     * @Rest\View(serializerGroups={"film_list"})
      */
     public function listAction()
     {
         return $this->service->list();
+    }
+
+    /**
+     * @Rest\Get(path="/api/films/detail/{id}")
+     * @Rest\View(serializerGroups={"film_detail"})
+     * @param Request $request
+     * @return mixed
+     */
+    public function detailAction(Request $request)
+    {
+        return $this->service->detail($request->get('id'));
     }
 }
