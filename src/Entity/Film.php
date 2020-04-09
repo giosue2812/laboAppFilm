@@ -15,6 +15,7 @@ class Film
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
+     * @Serializer\Groups({"film_list","film_detail"})
      */
     private $id;
 
@@ -100,12 +101,12 @@ class Film
         return $this;
     }
 
-    public function getDateSortie(): ?\DateTimeInterface
+    public function getDateSortie(): ?\DateTime
     {
         return $this->date_sortie;
     }
 
-    public function setDateSortie(?\DateTimeInterface $date_sortie): self
+    public function setDateSortie(?\DateTime $date_sortie): self
     {
         $this->date_sortie = $date_sortie;
 
