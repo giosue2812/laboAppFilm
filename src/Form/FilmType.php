@@ -2,8 +2,13 @@
 
 namespace App\Form;
 
+use App\Entity\Film;
+use App\Entity\Personne;
 use App\Models\FilmForm;
+use App\Repository\PersonneRepository;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\CollectionType;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;

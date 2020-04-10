@@ -33,6 +33,7 @@ class AppFixtures extends Fixture
         $film = new Film();
         $personneReal = new Personne();
         $personneAct = new Personne();
+        $personneAct2 = new Personne();
         $commentaire = new Commentaires();
 
         $date = new \DateTime();
@@ -67,6 +68,14 @@ class AppFixtures extends Fixture
         $personneAct->setAdCodePostal(52251);
         $personneAct->setAdVille('Floride');
         $manager->persist($personneAct);
+        $manager->flush();
+
+        $personneAct2->setNom('Evans');
+        $personneAct2->setPrenom('Chris');
+        $personneAct2->setAdRue('Rue des Anges 20');
+        $personneAct2->setAdCodePostal(30051);
+        $personneAct2->setAdVille('Loas Angels');
+        $manager->persist($personneAct2);
         $manager->flush();
 
         $film->setTitre('Batman');

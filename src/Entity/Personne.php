@@ -19,13 +19,11 @@ class Personne
     private $id;
 
     /**
-     * @Serializer\Groups({"film_detail"})
      * @ORM\Column(type="string", length=50)
      */
     private $nom;
 
     /**
-     * @Serializer\Groups({"film_detail"})
      * @ORM\Column(type="string", length=50)
      */
     private $prenom;

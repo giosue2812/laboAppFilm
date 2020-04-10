@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use JMS\Serializer\Annotation as Serializer;
 
@@ -15,62 +16,40 @@ class Film
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
-     * @Serializer\Groups({"film_list","film_detail"})
      */
     private $id;
 
     /**
      * @ORM\Column(type="string", length=50,unique=true)
-     * @Serializer\Groups({"film_list","film_detail"})
      */
     private $titre;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
-     * @Serializer\Groups({"film_list"})
      */
     private $description;
 
     /**
      * @Serializer\Groups({"film_detail"})
-     * @ORM\Column(type="date", nullable=true)
-
      */
     private $date_sortie;
 
     /**
-     * @Serializer\Groups({"film_detail"})
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $bande_annoce;
 
     /**
-     * @Serializer\Groups({"film_detail"})
-     * @ORM\ManyToMany(targetEntity="Personne")
-     * @ORM\JoinTable(name="acteur_film",
-     *  joinColumns={@ORM\JoinColumn(name="id_film",referencedColumnName="id")},
-     *     inverseJoinColumns={@ORM\JoinColumn(name="id_personne",referencedColumnName="id")}
-     * )
-     */
-    private $personnes;
-
-    /**
-     * @Serializer\Groups({"film_list"})
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $image;
 
     /**
-     * @Serializer\Groups({"film_detail"})
      * @ORM\ManyToOne(targetEntity="App\Entity\Personne")
      * @ORM\JoinColumn(name="realisateurs",referencedColumnName="id")
      */
     private $realisateurs;
 
-    public function __construct()
-    {
-        $this->personnes = new ArrayCollection();
-    }
 
     public function getId(): ?int
     {
@@ -134,24 +113,6 @@ class Film
     {
         $this->image = $image;
 
-        return $this;
-    }
-
-    /**
-     * @return ArrayCollection
-     */
-    public function getPersonnes(): ArrayCollection
-    {
-        return $this->personnes;
-    }
-
-    /**
-     * @param ArrayCollection $personnes
-     * @return Film
-     */
-    public function setPersonnes(ArrayCollection $personnes): Film
-    {
-        $this->personnes = $personnes;
         return $this;
     }
 

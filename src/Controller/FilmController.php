@@ -2,13 +2,14 @@
 
 namespace App\Controller;
 
+use App\Entity\Film;
+use App\Entity\Personne;
 use App\Form\FilmType;
 use App\Models\FilmForm;
 use App\Services\FilmService;
 use AutoMapperPlus\Exception\UnregisteredMappingException;
 use FOS\RestBundle\Controller\AbstractFOSRestController;
 use FOS\RestBundle\Controller\Annotations as Rest;
-use JMS\Serializer\SerializerInterface;
 use Symfony\Component\HttpFoundation\Request;
 
 class FilmController extends AbstractFOSRestController
@@ -26,7 +27,7 @@ class FilmController extends AbstractFOSRestController
 
     /**
      * @Rest\Get(path="/api/films")
-     * @Rest\View(serializerGroups={"film_list"})
+     * @Rest\View()
      */
     public function listAction()
     {
@@ -35,7 +36,7 @@ class FilmController extends AbstractFOSRestController
 
     /**
      * @Rest\Get(path="/api/films/detail/{id}")
-     * @Rest\View(serializerGroups={"film_detail"})
+     * @Rest\View()
      * @param Request $request
      * @return mixed
      */
@@ -46,12 +47,11 @@ class FilmController extends AbstractFOSRestController
 
     /**
      * @param Request $request
-     * @param SerializerInterface $serializer
      * @return FilmForm|UnregisteredMappingException|\Exception|mixed
      * @Rest\Post(path="/api/films/insert",name="film_insert")
      * @Rest\View()
      */
-    public function insertAction(Request $request, SerializerInterface $serializer)
+    public function insertAction(Request $request)
     {
         $filmForm = new FilmForm();
         $data = json_decode($request->getContent(),true);
@@ -60,11 +60,36 @@ class FilmController extends AbstractFOSRestController
         ]);
         $form->handleRequest($request);
         $form->submit($data);
-        if($form->isSubmitted()&&$form->isValid()){
-        $filmInsert = $this->service->insert($form->getData());
-            return $filmInsert;
+        if($form->isSubmitted()&&$form->isValid())
+        {
+             $this->service->insert($form->getData());
         }
         return 'Erreur';
+    }
 
+    /**
+     * @param Film $filmId
+     * @param Personne $personneId
+     * @Rest\Put(path="/api/films/{filmId}/add/{personneId}")
+     * @Rest\View()
+     * @return string
+     */
+    public function addRealisateurAction(Film $filmId, Personne $personneId)
+    {
+        $this->service->addRealisateur($filmId,$personneId);
+        return 'ok';
+    }
+
+    /**
+     * @param Film $filmId
+     * @param Personne $personneId
+     * @Rest\Post("/api/films/insert/{filmId}/and/{personneId}")
+     * @Rest\View()
+     * @return string
+     */
+    public function addActeurAction(Film $filmId, Personne $personneId)
+    {
+        $this->service->addActeur($filmId,$personneId);
+        return 'ok';
     }
 }

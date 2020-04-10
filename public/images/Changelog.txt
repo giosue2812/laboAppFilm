@@ -1,0 +1,2679 @@
+﻿Low Specs Experience 9.2.9 (4/4/2020)
+- Added optimization support for Halo: Combat Evolved
+- Divided A Plague Tale: Innocence optimization by specific platforms
+- Divided Halo: Reach optimization by specific platforms
+- Divided Hellblade: Senua's Sacrifice optimization by specific platoforms
+- Updated game version detection protocol for Metro Exodus optimization
+- Reworked optimization for Remember Me
+
+Low Specs Experience 9.2.8 (30/3/2020)
+- Added optimization support for The Sinking City
+- Corrected resolution scaling integers for Devil May Cry 5
+- Fixed a rare instance where Dishonored would crash after optimization
+- Reworked optimization for Rocket League
+
+Low Specs Experience 9.2.7 (22/3/2020)
+- Added optimization support for Call of Duty: Warzone
+- Added optimization support for Resident Evil 2 R.P.D. Demo
+- Added optimization support for Resident Evil 3 (2020)
+- Added optimization support for Resident Evil 3: Raccoon City Demo
+- Added optimization support for Resident Evil 7 Teaser: Beginning Hour
+- Game name changed from Resident Evil 2 to Resident Evil 2 (2019)
+- Removed manual resolution change dependencies for Devil May Cry 5
+- Removed manual resolution change dependencies for Resident Evil 2
+- Removed Biohazard prefix from Resident Evil names where applicable
+- Reworked optimization for Dishonored
+- Reworked optimization for Spec Ops: The Line
+
+Low Specs Experience 9.2.6 (17/3/2020)
+- Divided State of Decay 2 optimization by specific platforms
+- Updated game version detection protocol for Deceit
+
+Low Specs Experience 9.2.5 (12/3/2020)
+- Added the remaining optimization methods for Just Cause 2
+- Divided Final Fantasy 15 optimization by specific platforms
+- Divided Metro Exodus optimization by specific platforms
+- Updated file placement layout for Assassin's Creed 2 optimization
+- Updated file placement layout for Assassin's Creed: Brotherhood
+- Updated file placement layout for Assassin's Creed: Revelations
+- Updated file placement layout for Call of Duty: Black Ops 2
+- Updated file placement layout for Close to the Sun
+- Updated file placement layout for Devil's Hunt
+- Updated file placement layout for Effie
+- Updated file placement layout for Forstpunk
+- Updated file placement layout for GreedFall
+- Updated file placement layout for Life is Strange: Before the Storm
+- Updated file placement layout for Madden NFL 19
+- Updated file placement layout for Mafia 2
+- Updated file placement layout for Mafia 3
+- Updated file placement layout for Mega Man 11
+- Updated file placement layout for NieR: Automata
+- Updated file placement layout for Pro Evolution Soccer 2013
+- Updated file placement layout for Pro Evolution Soccer 2014
+- Updated file placement layout for Pro Evolution Soccer 2015
+- Updated file placement layout for Pro Evolution Soccer 2016
+- Updated file placement layout for Pro Evolution Soccer 2017
+- Updated file placement layout for Pro Evolution Soccer 2018
+- Updated file placement layout for Pro Evolution Soccer 2019
+- Updated file placement layout for Resident Evil 5 / Biohazard 5
+- Updated file placement layout for Ryse: Son of Rome
+- Updated file placement layout for Sea of Solitude
+- Updated file placement layout for State of Decay
+- Updated file placement layout for State of Decay: YOSE
+- Updated file placement layout for Subnautica
+
+Low Specs Experience 9.2.4 (9/3/2020)
+- Added optimization support for LEGO Marvel Super Heroes
+- Added optimization support for The LEGO Movie Videogame
+
+Low Specs Experience 9.2.3 (27/2/2020)
+- Added optimization support for LEGO City Undercover
+- Added optimization support for LEGO DC Super-Villains
+- Added optimization support for LEGO Marvel Super Heroes 2
+- Added optimization support for LEGO Star Wars: The Force Awakens
+- Added optimization support for The LEGO Movie Videogame 2
+- Added optimization support for The LEGO Ninjago Movie Video Game
+
+Low Specs Experience 9.2.2 (22/2/2020)
+- Enabled ReSwitch dependencies for Mega Man X Legacy Collection optimization
+- Enabled ReSwitch dependencies for Mega Man X Legacy Collection 2 optimization
+- Fixed a rare instance where Mega Man X Legacy Collection would crash after optimization
+- Fixed a rare instance where Mega Man X Legacy Collection 2 would crash after optimization
+
+Low Specs Experience 9.2.1 (19/2/2020)
+- Added optimization support for Mega Man X Legacy Collection
+- Added optimization support for Mega Man X Legacy Collection 2
+- Enabled ReSwitch dependencies for lower resolutions for DiRT Rally optimization
+- Fixed resolution integer values for Mega Man 11 not applying the correct resolution
+- Unavailable optimization methods are now labeled as 'Unavailable / Not Supported'
+- Updated game version detection protocol for Resident Evil: Revelations 2
+
+Low Specs Experience 9.2.0 (15/2/2020)
+- Added optimization support for Mega Man 11
+- Added optimization support for Past Cure
+- Enabled ultra-low, ultimate-low and plain-low optimization methods for DB Xenoverse 2
+- Minor modifications for DiRT 4 optimization
+- Minor modifications for DiRT Rally optimization
+- Minor modifications for DiRT Rally 2.0 optimization
+- Minor modifications for GRID (2019) optimization
+- Game name changed from NFS: Most Wanted to NFS: Most Wanted (2012) for better recognition
+
+Low Specs Experience 9.1.9 (11/2/2020)
+- Corrected resolution integers for games based on Unreal Engine 3
+- Corrected game detection integers for Sniper: Ghost Warrior 3 optimization
+- Corrected game detection integers for Sniper: Ghost Warrior Contracts optimization
+- Fixed an instance where DiRT Rally optimization would throw exception error
+- Fixed an instance where DiRT Rally would crash on startup after the optimization
+- Updated game detection protocol for Middle-earth: Shadow of War
+- Minor modifications for DiRT Rally optimization
+
+Low Specs Experience 9.1.8 (8/2/2020)
+- Added optimization support for Assassin's Creed 3: Liberation Remastered
+- Added optimization support for Remnant: From the Ashes
+- Fixed an instance where Assassin's Creed 3 optimization would not apply
+- Fixed an instance where Assassin's Creed 3 Remastered optimization would not apply
+- Fixed an instance where Assassin's Creed Rogue optimization would not apply
+- Fixed an instance where Darksiders unavailable optimizations were flagged as available
+- Fixed an instance where Darksiders 2 unavailable optimizations were flagged as available
+- Fixed an instance where PlayerUnknown's Battlegrounds optimization would not apply
+- Game name changed from AC 3: Liberation to AC: Liberation HD for better recognition
+- Resolved an issue with missing files for Assetto Corsa optimization
+- Resolved an issue with missing files for Assetto Corsa Competizione optimization
+
+Low Specs Experience 9.1.7 (5/2/2020)
+- Added optimization support for Code Vein
+- Fixed an instance where Assassin's Creed: Liberation HD optimization would not apply
+- Fixed an instance where Assassin's Creed 4: Black Flag optimization would not apply
+- Fixed an instance where Assassin's Creed: Freedom Cry optimization would not apply
+- Fixed an instance where Assassin's Creed Unity optimization would not apply
+
+Low Specs Experience 9.1.6 (3/2/2020)
+- Corrected ReSwitch form name showing the default value
+- Updated game version detection protocol for D:\ disk based Steam installation
+- Fixed an instance where Ghost Recon Wildlands optimization would stop the execution
+- Fixed an instance where Ghost Recon Breakpoint optimization would stop the execution
+
+Low Specs Experience 9.1.5 (1/2/2020)
+- Added optimization support for Effie
+- Added optimization support for Journey to the Savage Planet
+- Corrected game version detection integer values for Dead Island
+- Corrected game version detection integer values for Dead Island: Riptide
+- Extended optimization support for Grand Theft Auto: EFLC standalone version
+- Extended optimization support for The Witcher 2: Assassins of Kings Enhanced Edition
+- Updated game version detection protocol for Tom Clancy's Ghost Recon Wildlands
+- Updated game version detection protocol for Tom Clancy's Ghost Recon Breakpoint
+
+Low Specs Experience 9.1.4 (23/1/2020)
+- Game name changed from Agony UNRATED to Agony Unrated
+- Fixed an instance where the optimization control panel would not load for Agony Unrated
+- Fixed an instance where the optimization control panel would not load for GreedFall
+- Fixed an instance where the optimization control panel would not load for State of Decay 2
+- Updated game version detection protocol for Darksiders 2: Deathinitive Edition
+- Updated game version detection protocol for Frostpunk
+- Updated game version detection protocol for Pro Evolution Soccer 2013
+- Updated game version detection protocol for Pro Evolution Soccer 2014
+- Updated game version detection protocol for Pro Evolution Soccer 2015
+- Updated game version detection protocol for Pro Evolution Soccer 2016
+- Updated game version detection protocol for Pro Evolution Soccer 2017
+- Updated game version detection protocol for Pro Evolution Soccer 2018
+- Updated game version detection protocol for Pro Evolution Soccer 2019
+- Updated game version detection protocol for Resident Evil: Revelations 2 / Biohazard Revelations 2
+- Updated game version detection protocol for Sniper: Ghost Warrior 2
+- Updated game version detection protocol for Sniper: Ghost Warrior 3
+- Updated game version detection protocol for Sniper: Ghost Warrior Contracts
+*This update concludes the active bug fixing procedure for all known bugs and issues
+
+Low Specs Experience 9.1.3 (23/1/2020)
+- Enabled ReSwitch dependencies for Dragon Ball Z: Kakarot
+- Fixed description typo in the optimization control panel section
+- Improved optimization pre-fetching system for Dragon Ball Z: Kakarot
+
+Low Specs Experience 9.1.2 (22/1/2020)
+- Added optimization support for Dragon Ball Z: Kakarot
+- Updated game version detection protocol for Apex Legends
+- Updated game version detection protocol for Assetto Corsa
+- Updated game version detection protocol for Batman: Arkham Asylum
+- Updated game version detection protocol for Batman: Arkham City
+- Updated game version detection protocol for Sea of Solitude
+- Software version numbering label is now a standard label with text
+
+Low Specs Experience 9.1.1 (18/1/2020)
+- Minor modifications for optimization integers for games based on Unreal Engine 3
+- Minor modifications for Arma 3 optimization
+- Minor modifications for Watch Dogs 2 optimization
+
+Low Specs Experience 9.1.0 (17/1/2020)
+- Fixed an instance where the optimization control panel would not load for Deceit
+- Fixed an instance where the Unreal Engine 3 games would keep crashing after optimization
+
+Low Specs Experience 9.0.9 (16/1/2020)
+- Fixed an instance where the optimization control panel would not load for NBA 2K games
+- Fixed an instance where the optimization control panel would not load for WWE 2K games
+
+Low Specs Experience 9.0.8 (16/1/2020)
+- Fixed an instance where the folder selection dialog would not return proper path
+- Lower resolution options are now properly supported
+- Other major bug fixes in the back-end
+
+Low Specs Experience 9.0.7 (15/1/2020)
+- Optimization catalog will now return a negative message when game selection is empty
+- Optimization control panel will now return a negative message when resolution selection is empty
+- Game directory selection dialog will now return a negative message when canceled
+- Restore default option now works properly if executed before optimization
+- ReSwitch will now return a negative message when resolution selection is empty
+
+Low Specs Experience 9.0.6 (14/1/2020)
+- Fixed an instance where the GRID (2019) optimization control panel would not load
+- Updated game version detection protocol for Assassin's Creed Syndicate
+- Updated game version detection protocol for Dead Space 3
+
+Low Specs Experience 9.0.5 (14/1/2020)
+- Extended optimization support for Gears 5 Microsoft Store version
+- Extended optimization support for Hellblade: Senua's Sacrifice Microsoft Store version
+- Extended optimization support for Metro 2033 Redux Microsoft Store version
+- Extended optimization support for Metro: Last Light Redux Microsoft Store version
+- Extended optimization support for Quantum Break Microsoft Store version
+- Fixed an instance where the lite version logo would display as premium logo
+- Fixed an instance where the description text would go missing after optimization execution
+- Updated game version detection protocol for Assetto Corsa Competizione
+- Updated game version detection protocol for Battlefield: Bad Company 2
+- Updated game version detection protocol for Need for Speed: Hot Pursuit
+- Updated game version detection protocol for Call of Duty 4: Modern Warfare
+- Updated game version detection protocol for Civilization: Beyond Earth
+- Updated game version detection protocol for Civilization 6
+- Updated game version detection protocol for Crysis: Warhead
+- Updated game version detection protocol for Dragon Ball Xenoverse 2
+- Updated game version detection protocol for Dying Light
+- Updated game version detection protocol for FINAL FANTASY 15
+- Updated game version detection protocol for Medal of Honor: Warfighter
+- Updated game version detection protocol for Resident Evil: Revelations
+- Updated game version detection protocol for Resident Evil: Revelations 2
+- Updated game version detection protocol for Sleeping Dogs
+- Updated game version detection protocol for Sleeping Dogs: Definitive Edition
+- Updated game version detection protocol for State of Decay
+- Updated game version detection protocol for State of Decay: Year-One Survival Edition
+- Updated game version detection protocol for The Evil Within 2
+- Updated game version detection protocol for The Hunter: Call of the Wild
+- Game name changed from Crysis Warhead to Crysis: Warhead
+- Game name changed from GRID Reboot to GRID (2019)
+
+Low Specs Experience 9.0.4 (14/1/2020)
+- Updated game version detection protocol for Grand Theft Auto 5
+- Updated game version detection protocol for Red Dead Redemption 2
+- Updated ReSwitch resolution library
+
+Low Specs Experience 9.0.3 (13/1/2020)
+- Added optimization support for Steep
+- Added optimization support for The Beast Inside
+- Centered items in the optimization catalog section
+- Fixed an instance where the detailed information text would go missing after optimization execution
+- Fixed an instance where the selected resolution would not apply correctly after optimization execution
+- Fixed an instance where the ReSwitch message would appear for non-ReSwitch resolutions
+- Updated game version detection protocol for Arma 3
+- Updated game version detection protocol for Sniper: Ghost Warrior 3
+- Updated game version detection protocol for Sniper: Ghost Warrior Contracts
+- Updated game version detection protocol for Tom Clancy's Rainbow Six Siege
+- Updated game version detection protocol for Watch Dogs
+- Updated game version detection protocol for Watch Dogs 2
+
+Low Specs Experience 9.0.2 (13/1/2020)
+- Corrected version numbering in the installation setup
+- Updated game version detection protocol for The Evil Within
+- Updated game version detection protocol for The Evil Within 2
+- Updated game version detection protocol for RAGE 2
+- Updated game version detection protocol for Sekiro: Shadows Die Twice
+- Updated game version detection protocol for Quantum Break
+
+Low Specs Experience 9.0.1 (12/1/2020)
+- Corrected State of Decay mod content prefix
+- Corrected State of Decay: Year-One Survival Edition mod content prefix
+- Corrected Star Wars: Jedi Fallen Order mod content prefix
+
+Low Specs Experience 9.0.0 (11/1/2020)
+- Added automatic check for updates button for the free version
+- Added automatic check for updates on startup for the premium version
+- Added game version check when loading the optimization package
+- Added more resolution options for all optimizations
+- Added more optimization methods for all optimizations
+- Refined user-interface for a more simpler and cleaner look
+- Redesigned the optimization process protocol
+- Removed the dependency for non-mod standalone config files
+- Removed the manual game folder selection where applicable
+- Removed the separate check for updates section
+- Removed the separate support section
+- Removed the separate premium activation section
+
+Low Specs Experience 8.6.6 (9/1/2020)
+- Corrected software version numbering
+- Fixed the optimization fetching integer for Mortal Kombat X optimization
+
+Low Specs Experience 8.6.5 (7/1/2020)
+- Added optimization support for Heavy Rain
+- Fixed an instance where NBA 2K16 would not optimize
+- Fixed an instance where PAYDAY: The Heist would not optimize
+- Fixed an instance where PADYAY 2 would not optimize
+- Fixed an instance where Resident Evil HD Remaster would not optimize
+- Fixed an instance where Resident Evil Zero HD Remaster would not optimize
+- Reworked optimization for Mortal Kombat X
+- Removed the optimization support for Kingdom Come: Deliverance until further notice
+
+Low Specs Experience 8.6.4 (30/12/2019)
+- Background preparations for the Low Specs Experience V9 release
+- Corrected stock-low and ultra-low optimization strings for Conqueror's Blade
+- Fixed an instance where the Mortal Kombat X optimization files would go missing
+- Removed the optimization support for Deadpool
+- Removed the optimization support for Dead or Alive 5 Last Round
+- Removed the optimization support for Dead or Alive 6
+
+Low Specs Experience 8.6.3 (23/12/2019)
+- Added optimization support for Halo: Reach
+- Added optimization support for MechWarrior 5: Mercenaries
+- Fixed an instance where the ultimate-low and plain-low optimiations would be locked for Anthem
+- Fixed an instance where the ultimate-low and plain-low optimiations would be locked for Dead by Daylight
+- Fixed an instance where the SMITE optimization files would go missing
+
+Low Specs Experience 8.6.2 (16/12/2019)
+- Added optimization support for Darksiders Genesis
+- Added optimization support for Rune 2
+- Compatibility fixes for 7 Days to Die optimization for Alpha 18 version
+- Reworked optimization for 7 Days to Die
+
+Low Specs Experience 8.6.1 (12/12/2019)
+- Added optimization support for Friday the 13th: The Game
+- Added ultimate-low and plain-low optimization methods for OVERKILL's The Walking Dead
+- Added ultimate-low and plain-low optimization methods for SCUM
+- Added ultimate-low and plain-low optimization methods for Spyro Reignited Trilogy
+- Added ultimate-low and plain-low optimization methods for Star Wars: Battlefront
+- Added ultimate-low and plain-low optimization methods for Star Wars: Battlefront 2
+- Added ultimate-low and plain-low optimization methods for State of Decay 2
+- Reworked optimization for SCUM
+
+Low Specs Experience 8.6.0 (8/12/2019)
+- Corrected resolution integer scan for Red Dead Redemption 2 optimization
+
+Low Specs Experience 8.5.9 (6/12/2019)
+- Added optimization support for Plants vs. Zombies: Battle for Neighborville
+- Added optimization support for Red Dead Redemption 2
+- Added ultimate-low and plain-low optimization methods for Plants vs. Zombies: Garden Warfare
+- Added ultimate-low and plain-low optimization methods for Plants vs. Zombies: Garden Warfare 2
+- Reworked optimization for Plants vs. Zombies: Garden Warfare
+- Reworked optimization for Plants vs. Zombies: Garden Warfare 2
+
+Low Specs Experience 8.5.8 (3/12/2019)
+- Added ultimate-low and plain-low optimization methods for Conan Exiles
+- Added ultimate-low and plain-low optimization methods for Dauntless
+- Added ultimate-low and plain-low optimization methods for Daymare: 1998
+- Added ultimate-low and plain-low optimization methods for Dead by Daylight
+- Added ultimate-low and plain-low optimization methods for Dead Island
+- Added ultimate-low and plain-low optimization methods for Dead Island: Riptide
+- Added ultimate-low and plain-low optimization methods for Dead Island Definitive Edition
+- Added ultimate-low and plain-low optimization methods for Dead Island: Riptide Definitive Edition
+- Added ultimate-low and plain-low optimization methods for Dead Space
+- Added ultimate-low and plain-low optimization methods for Dead Space 2
+- Added ultimate-low and plain-low optimization methods for Dead Space 3
+- Added ultimate-low and plain-low optimization methods for Darksiders 3
+- Added ultimate-low and plain-low optimization methods for Deceit
+- Corrected the FOV values for Crysis 2 to avoid hand animation glitches
+- Fixed an instance where Dead by Daylight would not apply potato-low optimization changes
+- Minor corrections for Call of Juarez: Gunslinger ultimate-low optimization
+- Reconfigured the search pattern for Sniper: Ghost Warrior 3 optimization
+- Reconfigured the search pattern for Sniper: Ghost Warrior Contracts optimization
+
+Low Specs Experience 8.5.7 (1/12/2019)
+- Added optimization support for Shenmue 3
+- Added optimization support for Sniper: Ghost Warrior Contracts
+- Added optimization support for State of Decay
+- Added ultimate-low and plain-low optimization methods for Call of Juarez: Gunslinger
+- Added ultimate-low and plain-low optimization methods for Crysis
+- Added ultimate-low and plain-low optimization methods for Crysis Warhead
+- Added ultimate-low and plain-low optimization methods for Crysis 2
+- Added ultimate-low and plain-low optimization methods for Crysis 3
+- Added ultimate-low and plain-low optimization methods for Sniper: Ghost Warrior
+- Added ultimate-low and plain-low optimization methods for Sniper: Ghost Warrior 2
+- Game name changed from State of Decay to State of Decay: Year-One Survival Edition to avoid confusion
+- Reworked optimization for Sniper: Ghost Warrior 3 (V2)
+- Reworked optimization for State of Decay: Year-One Survival Edition
+
+Low Specs Experience 8.5.6 (25/11/2019)
+- Added optimization support for Star Wars Jedi: Fallen Order
+- Added optimization support for Terminator: Resistance
+
+Low Specs Experience 8.5.5 (16/11/2019)
+- Added optimization support for Moons of Madness
+- Added optimization support for Need for Speed Heat
+- Added ultimate-low and plain-low optimization methods for Bloodstained: Ritual of the Night
+- Added ultimate-low and plain-low optimization methods for Call of Duty 4: Modern Warfare
+- Added ultimate-low and plain-low optimization methods for Call of Duty: Modern Warfare 2
+- Added ultimate-low and plain-low optimization methods for Call of Duty: Modern Warfare 3
+- Added ultimate-low and plain-low optimization methods for Call of Duty: Ghosts
+- Added ultimate-low and plain-low optimization methods for Call of Duty: Advanced Warfare
+- Added ultimate-low and plain-low optimization methods for Call of Duty: Black Ops 3
+- Added ultimate-low and plain-low optimization methods for Call of Duty: Black Ops 4
+- Added ultimate-low and plain-low optimization methods for Need for Speed Payback
+- Reworked optimization for Call of Duty: Black Ops
+- Reworked optimization for Call of Duty: Black Ops 2
+- Fixed an instance where Call of Duty 4: Modern Warfare would not restore to default settings
+- Fixed an instance where SMITE would not apply all optimization changes
+
+Low Specs Experience 8.5.4 (10/11/2019)
+- Added optimization support for Borderlands 3
+- Added optimization support for Gears of War 4
+- Added ultimate-low and plain-low optimization methods for BioShock
+- Added ultimate-low and plain-low optimization methods for BioShock Remastered
+- Added ultimate-low and plain-low optimization methods for BioShock 2
+- Added ultimate-low and plain-low optimization methods for BioShock 2 Remastered
+- Fixed an instance where Gears 5 would not apply all optimization changes
+
+Low Specs Experience 8.5.3 (3/11/2019)
+- Added optimization support for America's Army: Proving Grounds
+- Added optimization support for The Outer Worlds
+- Added ultimate-low and plain-low optimization methods for Crackdown 3
+- Crackdown 3 optimization now requires ReSwitch to operate
+- Game name changed from TES 5: Skyrim Standard Edition to TES 5: Skyrim for better recognition
+
+Low Specs Experience 8.5.2 (25/10/2019)
+- Game name changed from GRID to GRID Reboot for better recognition
+- Fixed an instance where Deliver Us The Moon would not restore to default settings
+
+Low Specs Experience 8.5.1 (25/10/2019)
+- Added optimization support for Deliver Us The Moon
+- Added optimization support for GRID
+- Added ultimate-low and plain-low optimization methods for Assetto Corsa
+- Added ultimate-low and plain-low optimization methods for Assetto Corsa Competizione
+- Added ultimate-low and plain-low optimization methods for Astroneer
+- Added ultimate-low and plain-low optimization methods for Battlefield: Bad Company 2
+- Added ultimate-low and plain-low optimization methods for Battlefield 3
+- Added ultimate-low and plain-low optimization methods for Battlefield 4
+- Added ultimate-low and plain-low optimization methods for Battlefield Hardline
+- Added ultimate-low and plain-low optimization methods for Battlefield 1
+- Added ultimate-low and plain-low optimization methods for Battlefield 5
+- Game name changed from Race Driver GRID 2 to GRID 2
+- Game name changed from Race Driver GRID Autosport to GRID Autosport
+- Fixed an instance where Assetto Corsa would not optimize
+- Fixed an instance where Assassin's Creed would not optimize
+- Fixed an instance where Assassin's Creed 4: Black Flag would not optimize
+- Fixed an instance where Assassin's Creed 4: Freedom Cry would not optimize
+- Fixed an instance where Assassin's Creed Unity would not optimize
+- Fixed an instance where Assassin's Creed Syndicate would not optimize
+
+Low Specs Experience 8.5.0 (20/10/2019)
+- Added optimization support for Devil's Hunt
+- Added optimization support for Gears 5
+- Added automatic game destination folder selection for Forza Horizon 3
+- Added automatic game destination folder selection for Forza Horizon 4
+- Added ultimate-low and plain-low optimization methods for Alien: Isolation
+- Added ultimate-low and plain-low optimization methods for Apex Legends
+- Added ultimate-low and plain-low optimization methods for Ashes of Oahu
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed 2
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed: Brotherhood
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed: Revelations
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed 3
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed 3 Remastered
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed: Liberation HD
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed 4: Black Flag
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed: Freedom Cry Standalone
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed Unity
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed Rogue
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed Syndicate
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed Origins
+- Added ultimate-low and plain-low optimization methods for Assassin's Creed Odyssey
+- Game name changed from Assassin's Creed: Origins to Assassin's Creed Origins
+- The ultimate-low optimization method is now available for the Free Lite version
+- Updated optimization core code for Resident Evil: Revelations
+- Updated optimization core code for Resident Evil: Revelations 2
+
+Low Specs Experience 8.4.9 (14/10/2019)
+- Added optimization support for Destiny 2
+- Added optimization support for The Surge 2
+- Added ultimate-low and plain-low optimization methods for A Plague Tale: Innocence
+- Added ultimate-low and plain-low optimization methods for Agony
+- Added ultimate-low and plain-low optimization methods for Agony Unrated
+- Added ultimate-low and plain-low optimization methods for Abzu
+- Added ultimate-low and plain-low optimization methods for American Truck Simulator
+- Added ultimate-low and plain-low optimization methods for Ancestors: The Humankind Odyssey
+- Added ultimate-low and plain-low optimization methods for Anthem
+- Added ultimate-low and plain-low optimization methods for ARK: Survival Evolved
+- Added ultimate-low and plain-low optimization methods for Euro Truck Simulator 2
+- Added ultimate-low and plain-low optimization methods for The Surge
+- Added ultimate-low and plain-low optimization methods for Tom Clancy's The Division
+- Added ultimate-low and plain-low optimization methods for Tom Clancy's The Division 2
+- Background preparations for two additional optimization methods
+- Fixed an instance where Homefront: The Revolution would not optimize
+- Fixed an instance where the resolution would not apply properly with Abzu optimization
+- Game name changed from Agony Unrated to Agony UNRATED
+
+Low Specs Experience 8.4.8 (7/10/2019)
+- Added optimization support for Daymare: 1998
+- Added optimization support for Sea of Solitude
+- Fixed an instance where Gone Home would not optimize
+- Fixed an instance where the optimization for 800x600 resolution would not execute
+- Premium activation is now server-based and requires an internet connection
+
+Low Specs Experience 8.4.7 (1/10/2019)
+- Added optimization support for Dead by Daylight
+- Added optimization support for GreedFall
+- Simplified the background operation process tree for optimization handling
+
+Low Specs Experience 8.4.6 (24/9/2019)
+- Added optimization support for Spyro Reignited Trilogy
+- Minor modifications for Batman: Arkham Knight optimization
+
+Low Specs Experience 8.4.5 (15/9/2019)
+- Added optimization support for Ashes of Oahu
+- Added optimization support for Tom Clancy's Ghost Recon Breakpoint
+- Reworked optimization for Tom Clancy's Ghost Recon Wildlands
+
+Low Specs Experience 8.4.4 (8/9/2019)
+- Added optimization support for Ancestors: The Humankind Odyssey
+- Added optimization support for Control
+- Minor modifications for the Wolfenstein: The New Order optimization
+- Minor modifications for the Wolfenstein: The Old Blood optimization
+
+Low Specs Experience 8.4.3 (29/8/2019)
+- Changed the UI font from Century Gothic to Segoe UI
+- Changed premium membership button color from orange to sky blue
+
+Low Specs Experience 8.4.2 (28/8/2019)
+- Implemented RagnoTech™ Streamlined Installation Wizard
+
+Low Specs Experience 8.4.1 (25/8/2019)
+- Game name changed from Kingdom Come Deliverance to Kingdom Come: Deliverance
+- Fixed shortcut creation protocol crashing for Dead or Alive 5 Last Round optimization
+- Fixed shortcut creation protocol crashing for Dead or Alive 6 optimization
+- Fixed shortcut creation protocol crashing for Kingdom Come: Deliverance optimization
+- Fixed shortcut creation protocol crashing for The Evil Within 2 optimization
+- Removed Interop.IWshRuntimeLibrary dependencies for shortcut creation
+
+- Updated shortcut creation protocol for Dead or Alive 5 Last Round
+- Updated shortcut creation protocol for Dead or Alive 6
+- Updated shortcut creation protocol for Kingdom Come: Deliverance
+
+Low Specs Experience 8.4.0 (24/8/2019)
+- Updated uninstall manifest removal content table
+- Shortcut creation ported to WScriptShell to avoid incompatibility issues
+
+Low Specs Experience 8.3.9 (23/8/2019)
+- Added optimization support for Wolfenstein: Youngblood
+- Game name changed from Wolfenstein The New Order to Wolfenstein: The New Order
+- Game name changed from Wolfenstein The Old Blood to Wolfenstein: The Old Blood
+- Game name changed from Wolfenstein 2 The New Colossus to Wolfenstein 2: The New Colossus
+- Reworked optimization for Wolfenstein 2: The New Colossus
+
+Low Specs Experience 8.3.8 (21/8/2019)
+- Re-implemented 7-Zip LZMA2 compression method for the installation setup
+
+Low Specs Experience 8.3.7 (20/8/2019)
+- Added optimization support for Civilization 5
+- Added optimization support for Killing Floor 2
+- Fixed an instance where Civilization 6 would not restore to default settings
+- Improved optimization performance impact for Aliens: Colonial Marines optimization
+- Improved optimization performance impact for Batman: Arkham Asylum optimization
+- Improved optimization performance impact for Batman: Arkham City optimization
+- Improved optimization performance impact for Batman: Arkham Origins optimization
+- Improved optimization performance impact for Batman: Arkham Knight optimization
+- Improved optimization performance impact for BioShock Infinite optimization
+- Improved optimization performance impact for Borderlands optimization
+- Improved optimization performance impact for Borderlands: Game of the Year Enhanced optimization
+- Improved optimization performance impact for Borderlands 2 optimization
+- Improved optimization performance impact for Borderlands: The Pre-Sequel optimization
+- Improved optimization performance impact for Dishonored optimization
+- Improved optimization performance impact for Homefront optimization
+- Improved optimization performance impact for Life is Strange optimization
+- Improved optimization performance impact for Medal of Honor optimization
+- Improved optimization performance impact for Outlast optimization
+- Improved optimization performance impact for Outlast 2 optimization
+- Improved optimization performance impact for Paladins optimization
+- Improved optimization performance impact for Remember Me optimization
+- Improved optimization performance impact for Rocket League optimization
+- Improved optimization performance impact for Thief optimization
+- Improved optimization performance impact for XCOM 2 optimization
+- Improved optimization performance impact for XCOM: The Bureau: Declassified optimization
+- Removed 7-Zip LZMA2 compression method from setup until further notice
+
+Low Specs Experience 8.3.6 (17/8/2019)
+- Added optimization support for Civilization: Beyond Earth
+- Added optimization support for Civilization 6
+- Added optimization support for Subnautica
+- Fixed an instance where the shortcut creation protocol would fail
+
+Low Specs Experience 8.3.5 (15/8/2019)
+- Compatibility fixes for Life is Strange: Before the Storm optimization
+- Moved 7-Zip extraction protocol into the Windows Command Prompt
+- Updated uninstaller manifest to remain minimized once the installation finishes
+- Preparations for the possible implementation of the auto-update system
+
+Low Specs Experience 8.3.4 (12/8/2019)
+- Added error message on installation startup if the installation package is damaged
+
+Low Specs Experience 8.3.3 (10/8/2019)
+- Implemented 7-Zip LZMA2 solid compression to the installer
+- Updated the installation manifest providing up to 5x faster installation
+- The installation pack is ~30% smaller thanks to 7-Zip LZMA2 solid compression
+
+Low Specs Experience 8.3.2 (9/8/2019)
+- Added optimization support for Frostpunk
+- Added optimization support for Generation Zero
+- Compatibility fixes for Dragon Age: Inquisition optimization
+- Minor modifications for Assassin's Creed 2 optimization
+- Minor modifications for Assassin's Creed: Brotherhood optimization
+- Minor modifications for Assassin's Creed: Revelations optimization
+- Minor modifications for Assassin's Creed Syndicate optimization
+- Minor modifications for Assassin's Creed: Origins optimization
+- Minor modifications for Assassin's Creed Odyssey optimization
+- Minor modifications for Batman: Arkham Knight optimization
+
+Low Specs Experience 8.3.1 (1/8/2019)
+- Added optimization support for Conqueror's Blade
+- Added optimization support for Tom Clancy's Ghost Recon: Future Soldier
+- Fixed an instance where Crysis 2 optimization was rendered unavailable
+- Fixed resolution scaling for Outlast optimization
+- Fixed an issue where The Bureau: XCOM Declassified would crash after optimization
+- Updated the file placement manifest for the uninstaller
+- Updated and refreshed icons have been added
+
+Low Specs Experience 8.3.0 (20/7/2019)
+- Added optimization support for Agents of Mayhem
+- Added optimization support for Bloodstained: Ritual of the Night
+- Added optimization support for Submerged
+- Added optimization support for World of Warcraft
+- Reworked optimization for American Truck Simulator
+- Reworked optimization for Euro Truck Simulator 2
+
+Low Specs Experience 8.2.9 (13/7/2019)
+- Added optimization support for Astroneer
+- Added optimization support for Sunset Overdrive
+- All user-interface buttons made bigger in height (+2 pixels)
+- Fixed 'not supported' message overlap on optimization buttons
+- Ultra-low optimization method made available for Lite version users
+- Potato-low button now shows 'Premium Feature' message for Lite version users
+- Premium features will now be labeled with 'Premium Feature'
+- Simplified locations for folders and files
+
+Low Specs Experience 8.2.8 (9/7/2019)
+- Minor internal and background changes
+
+Low Specs Experience 8.2.7 (6/7/2019)
+- Additional optimizations and configurations for BioShock
+- Additional optimizations and configurations for BioShock 2
+- Additional optimizations and configurations for BioShock Remastered
+- Additional optimizations and configurations for BioShock 2 Remastered
+- Fixed an instance where BioShock Remastered would crash during fights
+- Fixed an instance where BioShock 2 Remastered would crash during fights
+
+Low Specs Experience 8.2.6 (5/7/2019)
+- Added optimization support for BioShock
+- Added optimization support for BioShock 2
+- Added optimization support for BioShock Remastered
+- Added optimization support for BioShock 2 Remastered
+- The core code has been upgraded to all-in-one RagnoTech™ Next-Gen streamlined coding
+- The user interface has been upgraded to all-in-one RagnoTech™ Next-Gen streamlined user interface
+- Game name changed from Bioshock Infinite to BioShock Infinite
+
+Low Specs Experience 8.2.5 (28/6/2019)
+- Added optimization support for Divinity: Original Sin 2 - Definitive Edition
+- Added optimization support for MORDHAU
+- Game name changed from Divinity Original Sin 2 to Divinity: Original Sin 2
+- Updated framework for shortcut creation
+- Removed previously introduced alternative batch files on Desktop
+
+Low Specs Experience 8.2.4 (17/6/2019)
+- Added alternative batch files on Desktop when setup fails to create shortcuts
+- Fixed compatibility issues with ReSwitch
+
+Low Specs Experience 8.2.3 (11/6/2019)
+- Added optimization support for Close to the Sun
+- Added optimization support for Dauntless
+- Added optimization support for Fade to Silence
+
+Low Specs Experience 8.2.2 (6/6/2019)
+- Added optimization support for Assetto Corsa Competizione
+- Added optimization support for RAGE
+- Added optimization support for RAGE 2
+- Fixed an instance where Warface would not restore to default settings
+
+Low Specs Experience 8.2.1 (22/5/2019)
+- Added optimization support for A Plague Tale: Innocence
+- Added optimization support for Mirror's Edge
+- Added optimization support for Sniper Elite V2 Remastered
+- Added optimization support for theHunter: Call of the Wild
+- Fixed an instance where the premium membership advert remains enabled after premium activation
+- Minor modifications for Anthem optimization
+- Minor modifications for Mirror's Edge Catalyst optimization
+- Minor modifications for Sniper Elite V2 optimization
+
+Low Specs Experience 8.2.0 (15/5/2019)
+- Added optimization support for Agony Unrated
+- Added optimization support for Conan Exiles
+- Added optimization support for theHunter Classic
+- Fixed an instance where Bioshock Infinite would show DirectX error on startup after optimization
+- Minor modifications for Agony optimization
+- Minor modifications for Battlefield Hardline optimization
+- Minor modifications for Battlefield 4 optimization
+- Minor modifications for Battlefield 1 optimization
+- Minor modifications for Battlefield 5 optimization
+- Minor modifications for Dishonored 2 optimization
+- Minor modifications for Hellblade: Senua's Sacrifice optimization
+- Minor modifications for Homefront optimization
+- Minor modifications for Life is Strange 2 optimization
+- Minor modifications for Mass Effect: Andromeda optimization
+- Minor modifications for Need for Speed Reboot optimization
+- Minor modifications for Need for Speed Payback optimization
+- Minor modifications for Star Wars: Battlefront optimization
+- Minor modifications for Star Wars: Battlefront 2 optimization
+- Minor modifications for State of Decay 2 optimization
+- Minor modifications for Vampyr optimization
+- Minor modifications for The Awesome Adventures of Captain Spirit optimization
+- Optimization Catalog drop-down menu increased in size (+1 font size)
+
+Low Specs Experience 8.1.9 (4/5/2019)
+- Fixed game name for Ryse: Son of Rome showing MGS 5: The Phantom Pain
+- Minor modifications for Madden NFL 19 optimization
+- ReSwitch Message icon changed from info to asterisk for Madden NFL 19 optimization
+- ReSwitch Message icon changed from info to asterisk for Wolfenstein: The New Order optimization
+- ReSwitch Message icon changed from info to asterisk for Wolfenstein: The Old Blood optimization
+- ReSwitch Message icon changed from info to asterisk for Wolfenstein 2: The New Colossus optimization
+
+Low Specs Experience 8.1.8 (3/5/2019)
+- Added optimization support for Borderlands: Game of the Year Enhanced
+- Added optimization support for Madden NFL 19
+- Added optimization support for ReCore: Definitive Edition
+- Fixed an instance where Sniper: Ghost Warrior 3 optimization fails to execute
+- Name name changed from Sleeping Dogs DE to Sleeping Dogs: DE
+
+Low Specs Experience 8.1.7 (29/4/2019)
+- Added optimization support for Ryse: Son of Rome
+- Added optimization support for Warface
+- Added optimization support for World War Z
+- Fixed an instance where Sniper: Ghost Warrior 2 would not restore to default settings
+- Fixed an instance where Tom Clancy's Ghost Recon Wildlands potato-low optimization isn't supported
+- Reworked optimization for Sniper: Ghost Warrior 3
+
+Low Specs Experience 8.1.6 (11/4/2019)
+- Added optimization support for Assassin's Creed 3 Remastered
+- Fixed incorrect inventory scaling issue with Borderlands optimization
+- Fixed incorrect inventory scaling issue with Borderlands 2 optimization
+- Fixed incorrect inventory scaling issue with Borderlands: The Pre-Sequel optimization
+- Minor changes to the back-end of user interface
+- Minor changes to the order of user interface buttons
+- Premium Activation button has a new gold color style
+
+Low Specs Experience 8.1.5 (28/3/2019)
+- Added optimization support for Crackdown 3
+- Added optimization support for Sekiro: Shadows Die Twice
+
+Low Specs Experience 8.1.4 (20/3/2019)
+- Added optimization support for Resident Evil Zero / Biohazard Zero HD Remaster
+- Added optimization support for Resident Evil / Biohazard HD Remaster
+- Added optimization support for Resident Evil 4 / Biohazard 4 Ultimate HD Remaster
+- Added optimization support for Resident Evil: Revelations / Biohazard Revelations
+- Added optimization support for Resident Evil: Revelations 2 / Biohazard Revelations 2
+- Fixed an instance where Titanfall 2 would not restore to default settings
+- RagnoTech™ Installation Wizard will now check and remove older versions of software
+- Implemented RAR4 solid compression to save on download bandwidth with 10% compression ratio
+
+Low Specs Experience 8.1.3 (12/3/2019)
+- Added optimization support for Dead or Alive 6
+- Added optimization support for Devil May Cry 5
+- Added optimization support for Jump Force
+- Fixed an instance where Resident Evil 2 would not restore to default settings
+
+Low Specs Experience 8.1.2 (7/3/2019)
+- Fixed an instance where the installer fails to proceed with installation process
+- Minor changes to the 3rd generation RagnoTech™ Installation Wizard
+
+Low Specs Experience 8.1.1 (25/2/2019)
+- Added optimization support for Anthem
+- Added optimization support for DiRT Rally 2.0
+- Added optimization support for Far Cry New Dawn
+- Added optimization support for Call of Duty 4: Modern Warfare
+- Added optimization support for Call of Duty: Modern Warfare 2
+- Added optimization support for Call of Duty: Modern Warfare 3
+- Fixed 'Restore Default' message for Call of Duty: Black Ops
+- Removed ReSwitch dependencies for Far Cry 5 optimization
+
+Low Specs Experience 8.1.0 (21/2/2019)
+- Added optimization support for Metro Exodus
+- Added optimization support for Tom Clancy's The Division 2
+
+Low Specs Experience 8.0.9 (7/2/2019)
+- Added optimization support for Apex Legends
+- Fixed an instance where Mass Effect would not start after restoring to default settings
+
+Low Specs Experience 8.0.8 (3/2/2019)
+- Fixed 'black environment' bug with GTA 5 optimization on older AMD cards
+- Fixed version values showing an older version instead of the actual one
+
+Low Specs Experience 8.0.7 (3/2/2019)
+- Fixed an instance where the setup would crash on 32-bit operating systems
+
+Low Specs Experience 8.0.6 (25/1/2019)
+- Added optimization support for ARK: Survival Evolved
+- Added optimization support for Monster Hunter: World
+- Added optimization support for OVERKILL's The Walking Dead
+- Minor back end adjustments for Hellblade Senua's Sacrifice optimization
+- Fixed crash on startup after using potato-low optimization for Metro 2033 Redux
+- Fixed crash on startup after using potato-low optimization for Metro: Last Light Redux
+- Fixed game name for Assassin's Creed Rogue (showing CoD: Advanced Warfare)
+
+Low Specs Experience 8.0.5 (22/1/2019)
+- Added optimization support for Assetto Corsa
+- Added optimization support for Darksiders Warmastered Edition
+- Added optimization support for Darksiders 2: Deathinitive Edition
+- Added optimization support for Darksiders 3
+- Added optimization support for Resident Evil 2
+- Fixed The Sims 3 message about missing configuration file
+- Fixed The Sims 4 message about missing configuration file
+
+Low Specs Experience 8.0.4 (7/1/2019)
+- Minor changes to the core code of the Low Specs Experience
+- Minor changes and updates for the RagnoTech™ RivaTek compression system
+
+Low Specs Experience 8.0.3 (30/12/2018)
+- Implemented all-new RagnoTech™ RivaTek compression system
+- Implemented all-new 3rd generation RagnoTech™ Installation Wizard
+- Installation pack size reduced by 30% (from 167MB to 116MB)
+
+Low Specs Experience 8.0.2 (16/12/2018)
+- Added optimization support for For Honor
+- Added optimization support for Hitman 2
+- Added optimization support for Just Cause 4
+- Added optimization support for We Happy Few
+- Game name changed from Watch_Dogs to Watch Dogs
+- Game name changed from Watch_Dogs 2 to Watch Dogs 2
+
+Low Specs Experience 8.0.1 (13/12/2018)
+- Added optimization support for Dead Space
+- Added optimization support for Dead Space 2
+- Added optimization support for Dead Space 3
+- Added optimization support for Pro Evolution Soccer 2019
+- Changed shortcut appearance for Dead or Alive 5 Last Round optimization
+- Minor adjustments to the user interface
+- Minor adjustments to the back-end code for Call of Duty: Black Ops 3 optimization
+
+Low Specs Experience 8.0.0 (1/12/2018)
+- Added all-new redesigned and refined main user-interface
+- Added all-new redesigned and refined installation user-interface
+- Added all-new and proper uninstall function
+- Added automatic optimization support for Grand Theft Auto 5
+- Added automatic optimization support for The Crew
+- Added automatic optimization support for The Crew 2
+- Added potato-low optimization for Call of Duty: Infinite Warfare
+- Added potato-low optimization for Call of Duty: Modern Warfare Remastered
+- Added potato-low optimization for Forza Horizon 4
+- Compatibility fixes for Paladins optimization
+- Minor adjustments to Dead Island potato-low optimization
+- Minor adjustments to Dead Island Definitive Edition potato-low optimization
+- Minor adjustments to Dead Island: Riptide potato-low optimization
+- Minor adjustments to Dead Island: Riptide Definitive Edition potato-low optimization
+- Fixed an instance where Fallout 3 would crash after multiple optimizations
+- Fixed an instance where Fallout: New Vegas would crash after multiple optimizations
+- Fixed an instance where Fallout 4 would crash after multiple optimizations
+- Fixed an instance where Just Cause 3 would not restore to default settings
+- Removed optimization support for Naruto Shippuden: Ultimate Ninja Storm Revolution
+- Removed optimization support for Naruto Shippuden: Ultimate Ninja Storm 4
+- Removed ultra-low optimization for Just Cause 3
+- Reworked optimization for Dragon Ball Xenoverse
+- Reworked optimization for Dragon Ball Xenoverse 2
+- Reworked optimization for FIFA 15
+- Reworked optimization for FIFA 16
+- Reworked optimization for FIFA 17
+- Reworked optimization for Grand Theft Auto 4 / Episodes from Liberty City
+- Reworked optimization for Heroes of the Storm
+- Reworked optimization for Just Cause 2
+- Reworked optimization for League of Legends
+- Reworked optimization for SMITE
+- Reworked optimization for The Elder Scrolls 5: Skyrim
+- Reworked optimization for The Elder Scrolls 5: Skyrim Special Edition
+
+Low Specs Experience Legacy Edition 7.8.1 (13/11/2018)
+- Added optimization support for Star Wars: Battlefront 2
+- Added potato-low optimization for Alien: Isolation
+- Added potato-low optimization for Forza Horizon 3
+- Added potato-low optimization for Prey
+- Added potato-low optimization for Quantum Break
+- Added potato-low optimization for Rust Experimental
+- Added potato-low optimization for Shadow Warrior 2
+- Added potato-low optimization for The Evil Within 2
+- Added potato-low optimization for The Witcher 2: Assassins of Kings
+- Added potato-low optimization for The Witcher 3: Wild Hunt
+- Removed ultra-low optimization for Call of Duty: Black Ops
+- Removed ultra-low optimization for Dead Rising Remastered
+- Removed ultra-low optimization for Deus Ex: Mankind Divided
+
+Low Specs Experience Legacy Edition 7.8.0 (12/11/2018)
+- Added automatic optimization support for The Sims 3
+- Added automatic optimization support for The Sims 4
+- Enabled subtitles for Hellblade: Senua's Sacrifice
+- Game name changed from PVZ GW to PVZ: GW
+- Game name changed from PVZ GW 2 to PVZ: GW 2
+- Game name changed from Star Wars Battlefront to Star Wars: Battlefront
+- Fixed an instance where Thief would not restore to default settings
+- Minor adjustments to Need for Speed Payback optimization
+- Reworked optimization for Mirror's Edge Catalyst
+- Reworked optimization for Need for Speed Reboot
+- Reworked optimization for Titanfall
+- Reworked optimization for Titanfall 2
+- Reworked optimization for Plants vs. Zombies: Garden Warfare
+- Reworked optimization for Plants vs. Zombies: Garden Warfare 2
+- Reworked optimization for Star Wars: Battlefront
+
+Low Specs Experience Legacy Edition 7.7.9 (9/11/2018)
+- Game name changed from Assassin's Creed: Odyssey to Assassin's Creed Odyssey
+- Fixed ultra-low and potato-low optimizations not working for Sniper: Ghost Warrior
+
+Low Specs Experience Legacy Edition 7.7.8 (9/11/2018)
+- Fixed an instance where Fallout 3 would not optimize
+- Fixed an instance where Fallout: New Vegas would not optimize
+- Fixed an instance where Fallout 4 would not optimize
+- Fixed an instance where Fallout 3 would not start after optimization
+- Fixed an instance where Fallout: New Vegas would not start after optimization
+- Fixed an instance where Fallout 4 would not start after optimization
+
+Low Specs Experience Legacy Edition 7.7.7 (8/11/2018)
+- Game name changed from Assassin's Creed Origins to Assassin's Creed: Origins
+- Game name changed from Assassin's Creed Odyssey to Assassin's Creed: Odyssey
+- Game name changed from Dead Island SE to Dead Island
+- Game name changed from Dead Island Riptide SE to Dead Island: Riptide
+- Game name changed from Dead Island Riptide DE to Dead Island: Riptide DE
+- Game name changed from Sniper Elite NZA to Sniper Elite: Nazi Zombie Army
+- Game name changed from Sniper Elite NZA 2 to Sniper Elite: Nazi Zombie Army 2
+- Game name changed from Sniper Elite ZAT to Sniper Elite: Zombie Army Trilogy
+- Game name changed from Sniper Ghost Warrior to Sniper: Ghost Warrior
+- Game name changed from Sniper Ghost Warrior 2 to Sniper: Ghost Warrior 2
+- Game name changed from Sniper Ghost Warrior 3 to Sniper: Ghost Warrior 3
+- Game name changed from Sleeping Dogs: SE to Sleeping Dogs
+- Game name changed from Sleeping Dogs: DE to Sleeping Dogs DE
+- Game name changed from Spec Ops The Line to Spec Ops: The Line
+- Game name changed from TW 2 Assassin's of Kings to The Witcher 2: Assassins of Kings
+- Game name changed from TW 3 Wild Hunt to The Witcher 3: Wild Hunt
+- Fixed an instance where Batman: Arkham Asylum would not optimize
+- Fixed an instance where Aliens: Colonial Marines would not restore to default settings
+- Fixed an instance where Batman: Arkham Asylum would not restore to default settings
+- Fixed an instance where Batman: Arkham City would not restore to default settings
+- Fixed an instance where Bioshock Infinite would not restore to default settings
+- Fixed an instance where Borderlands would not restore to default settings
+- Fixed an instance where Borderlands 2 would not restore to default settings
+- Fixed an instance where Borderlands: The Pre-Sequel would not restore to default settings
+- Fixed an instance where Call of Juarez: Gunslinger would not restore to default settings
+- Fixed an instance where Deadpool would not restore to default settings
+- Fixed an instance where Dead Island SE would not restore to default settings
+- Fixed an instance where Dead Island: Riptide SE would not restore to default settings
+- Fixed an instance where Dead Island DE would not restore to default settings
+- Fixed an instance where Dead Island: Riptide DE would not restore to default settings
+- Fixed an instance where Dishonored would not restore to default settings
+- Fixed an instance where Dying Light would not restore to default settings
+- Fixed an instance where Goat Simulator would not restore to default settings
+- Fixed an instance where Homefront would not restore to default settings
+- Fixed an instance where Life is Strange would not restore to default settings
+- Fixed an instance where Medal of Honor would not restore to default settings
+- Fixed an instance where Outlast would not restore to default settings
+- Fixed an instance where Outlast 2 would not restore to default settings
+- Fixed an instance where Paladins would not restore to default settings
+- Fixed an instance where Remember Me would not restore to default settings
+- Fixed an instance where Rocket League would not restore to default settings
+- Fixed an instance where Sherlock Holmes: Devil's Daughter would not restore to default settings
+- Fixed an instance where Sniper: Ghost Warrior would not restore to default settings
+- Fixed an instance where Spec Ops: The Line would not restore to default settings
+- Fixed an instance where XCOM: Berau Declassified would not restore to default settings
+- Fixed an instance where XCOM: Enemy Unknown would not restore to default settings
+- Fixed an instance where XCOM: Enemy Within would not restore to default settings
+- Fixed an instance where XCOM 2 would not restore to default settings
+- Reworked optimization for Call of Juarez: Gunslinger
+- Reworked optimization for Dead Island SE
+- Reworked optimization for Dead Island: Riptide SE
+- Reworked optimization for Dead Island DE
+- Reworked optimization for Dead Island: Riptide DE
+- Reworked optimization for Mass Effect: Andromeda
+- Reworked optimization for Sniper: Ghost Warrior
+
+Low Specs Experience Legacy Edition 7.7.6 (6/11/2018)
+- Added automatic optimization support for Assassin's Creed Origins
+- Added optimization support for Assassin's Creed Odyssey
+- Fixed ReSwitch message for Far Cry Primal optimization
+
+Low Specs Experience Legacy Edition 7.7.5 (4/11/2018)
+- Added automatic optimization support for Assassin's Creed Unity
+- Added automatic optimization support for Assassin's Creed Rogue
+- Added automatic optimization support for Assassin's Creed Syndicate
+- Fixed bug where the optimizer wouldn't check for Assassin's Creed config file on startup
+- Minor adjustments to Assassin's Creed ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed 2 ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed: Brotherhood ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed: Revelations ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed: Liberation ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed 3 ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed 4: Black Flag + FC DLC ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed: Freedom Cry Standalone ultra-low and potato-low methods
+- Reworked optimization for Dying Light / Dying Light The Following
+
+Low Specs Experience Legacy Edition 7.7.4 (30/10/2018)
+- Added optimization-support for Assassin's Creed: Freedom Cry Standalone
+- Added automatic optimization support for Assassin's Creed 3
+- Added automatic optimization support for Assassin's Creed: Liberation
+- Added automatic optimization support for Assassin's Creed 4: Black Flag + FC DLC
+- Added automatic optimization support for Assassin's Creed: Freedom Cry Standalone
+- Game name changed from Assassin's Creed Liberation HD to Assassin's Creed: Liberation
+- Minor adjustments to Assassin's Creed ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed 2 ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed: Brotherhood ultra-low and potato-low methods
+- Minor adjustments to Assassin's Creed: Revelations ultra-low and potato-low methods
+- Minor adjustments to Far Cry 4 ultra-low and potato-low methods
+
+Low Specs Experience Legacy Edition 7.7.3 (28/10/2018)
+- Updated optimization precision system for Assassin's Creed
+- Updated optimization precision system for Assassin's Creed 2
+- Updated optimization precision system for Assassin's Creed: Brotherhood
+- Updated optimization precision system for Assassin's Creed: Revelations
+
+Low Specs Experience Legacy Edition 7.7.2 (27/10/2018)
+- Fixed an instance where Metro 2033 would not optimize
+- Fixed an instance where Metro 2033 would not optimize for 640x480 resolution
+- Fixed broken journal entries after optimization for Metro 2033
+- Fixed broken journal entries after optimization for Metro 2033 Redux
+- Fixed broken journal entries after optimization for Metro: Last Light
+- Fixed broken journal entries after optimization for Metro: Last Light Redux
+
+Low Specs Experience Legacy Edition 7.7.1 (24/10/2018)
+- Updated optimization precision system for Far Cry 2
+- Updated optimization precision system for Far Cry 3
+- Updated optimization precision system for Far Cry 3: Blood Dragon
+- Updated optimization precision system for Far Cry 4
+- Updated optimization precision system for Far Cry Primal
+- Updated optimization precision system for Far Cry 5
+
+Low Specs Experience Legacy Edition 7.7.0 (24/10/2018)
+- Command prompt will now show the message about registry key where applicable
+- Updated optimization for 7 Days to Die (added potato-low method)
+- Updated optimization for Far Cry 2 (added ultra-low and potato-low methods)
+- Updated optimization for Far Cry 3 (reworked potato-low method)
+- Updated optimization for Far Cry 3: Blood Dragon (reworked potato-low method)
+- Updated optimization for Far Cry 4 (reworked potato-low method)
+- Updated optimization for Far Cry Primal (reworked potato-low method)
+- Updated optimization for Far Cry 5 (reworked ultra-low and potato-low methods)
+- Updated optimization for Tomb Raider (added potato-low method)
+- Updated optimization precision system for 7 Days to Die
+- Updated optimization precision system for Deadpool
+- Updated optimization precision system for Deus Ex: Mankind Divided
+- Updated optimization precision system for Hitman
+- Updated optimization precision system for Hitman: Absolution
+- Updated optimization precision system for Life is Strange: Before the Storm
+- Updated optimization precision system for Rise of the Tomb Raider
+- Updated optimization precision system for Shadow of the Tomb Raider
+- Updated optimization precision system for The Forest
+- Updated optimization precision system for Tomb Raider
+
+Low Specs Experience Legacy Edition 7.6.9 (18/10/2018)
+- Added optimization support for Medal of Honor
+- Added optimization support for Medal of Honor: Warfighter
+- Added optimization support for NBA 2k19
+- Fixed issues with headlights/mirrors for American Truck Simulator optimization
+- Fixed issues with headlights/mirrors for Euro Truck Simulator 2 optimization
+
+Low Specs Experience Legacy Edition 7.6.8 (17/10/2018)
+- Added optimization support for WWE 2k19
+- Fixed incompatibility issues with Mass Effect optimization
+- Other minor user interface changes
+
+Low Specs Experience Legacy Edition 7.6.7 (7/10/2018)
+- Added optimization support for Metal Gear Solid 5: The Phantom Pain
+- Added optimization support for SCUM
+- Updated optimization precision system for Final Fantasy XV
+- Updated optimization precision system for Life is Strange 2
+- Updated optimization precision system for Metro 2033
+- Updated optimization precision system for Metro 2033 Redux
+- Updated optimization precision system for Metro: Last Light
+- Updated optimization precision system for Metro: Last Light Redux
+- Updated optimization precision system for Rainbow Six Siege
+- Updated optimization precision system for The Awesome Adventures of Captain Spirit
+- Updated optimization precision system for Watch Dogs
+
+Low Specs Experience Legacy Edition 7.6.6 (2/10/2018)
+- Added optimization support for Forza Horizon 4
+- Added optimization support for Life is Strange 2
+- Game name changed from LiS Before the Storm to LiS: Before the Storm
+- Updated optimization for The Awesome Adventures of Captain Spirit
+- Reworked optimization for Overwatch
+
+Low Specs Experience Legacy Edition 7.6.5 (25/9/2018)
+- Fixed problem with UI scaling with the installation wizard
+- Fixed problem with UI scaling with the ReSwitch application
+
+Low Specs Experience Legacy Edition 7.6.4 (22/9/2018)
+- Disabled auto-scaling feature to prevent the UI from rendering incorrectly
+- Enabled toolbox at the top of each Low Specs Experience and ReSwitch form
+- Removed white border lines from all Low Specs Experience and ReSwitch forms
+
+Low Specs Experience Legacy Edition 7.6.3 (19/9/2018)
+- Added message about the resolution issues for Stranded Deep optimization
+- Compatibility fixes for Call of Duty: Black Ops 4 optimization
+- Compatibility fixes for Hitman optimization
+
+Low Specs Experience Legacy Edition 7.6.2 (14/9/2018)
+- Fixed 'optimization package not loading' for Battlefield: Bad Company 2 optimization
+- Minor changes and tweaks to the user-interface
+
+Low Specs Experience Legacy Edition 7.6.1 (13/9/2018)
+- Added optimization support for Battlefield 5
+- Added optimization support for Shadow of the Tomb Raider
+- Added optimization support for Stranded Deep
+- Reworked optimization for Rise of the Tomb Raider
+
+Low Specs Experience Legacy Edition 7.6.0 (11/9/2018)
+- Fixed 'inventory scaling' bug with Borderlands 2 optimization
+- Fixed 'inventory scaling' bug with Borderlands: The Pre-Sequel optimization
+- Fixed 'specified file not found' error with GTA 4 + EFLC optimization (v2)
+
+Low Specs Experience Legacy Edition 7.5.9 (3/9/2018)
+- Fixed 'specified file not found' error with 7 Days to Die optimization
+- Fixed 'specified file not found' error with Dead or Alive 5 Last Round optimization
+- Fixed 'specified file not found' error with Deadpool optimization
+- Fixed 'specified file not found' error with Deus Ex: Mankind Divided optimization
+- Fixed 'specified file not found' error with Final Fantasy 15 optimization
+- Fixed 'specified file not found' error with GTA 4 + EFLC optimization
+- Fixed 'specified file not found' error with Hitman optimization
+- Fixed 'specified file not found' error with Hitman Absolution optimization
+- Fixed 'specified file not found' error with Kingdom Come Deliverance optimization
+- Fixed 'specified file not found' error with LiS: Before the Storm optimization
+- Fixed 'specified file not found' error with LiS: Adventures of Cpt. Spirit optimization
+- Fixed 'specified file not found' error with Metro 2033 optimization
+- Fixed 'specified file not found' error with Metro 2033 Redux optimization
+- Fixed 'specified file not found' error with Metro: Last Light optimization
+- Fixed 'specified file not found' error with Metro: Last Light Redux optimization
+- Fixed 'specified file not found' error with Rise of the Tomb Raider optimization
+- Fixed 'specified file not found' error with The Forest optimization
+- Fixed 'specified file not found' error with Rainbow Six Siege optimization
+- Fixed 'specified file not found' error with Tomb Raider Reborn optimization
+- Fixed 'specified file not found' error with Just Cause 2 optimization
+- Fixed 'specified file not found' error with The Evil Within 2 optimization
+- Fixed 'newly created' shortcut not working for Dead or Alive 5 Last Round optimization
+- Fixed 'newly created' shortcut not working for GTA 4 + EFLC optimization
+- Fixed 'newly created' shortcut not working for Just Cause 2 optimization
+- Fixed 'newly created' shortcut not working for Kingdom Come Deliverance optimization
+- Fixed 'newly created' shortcut not working for The Evil Within 2 optimization
+
+Low Specs Experience Legacy Edition 7.5.8 (31/8/2018)
+- Added optimization support for Batman: Arkham Asylum
+- Added optimization support for Batman: Arkham City
+- Fixed 'no enemies in detective mode' bug for Batman: Arkham Knight optimization
+
+Low Specs Experience Legacy Edition 7.5.7 (29/8/2018)
+- Implemented all-new RagnoTech™ Background File Processing V2
+- 7-zip compressed archives have been completely removed from use
+- Users no longer have to start RagnoTech™ Control Panel manually
+
+Low Specs Experience Legacy Edition 7.5.6 (27/8/2018)
+- Added optimization support for Batman: Arkham Origins Blackgate
+- Fixed an instance where Agony would not optimize
+- Fixed an instance where Assassin's Creed would not optimize
+- Fixed an instance where Dark Souls Remastered would not optimize
+- Fixed an instance where Dark Souls 2 would not optimize
+- Fixed an instance where Dark Souls 3 would not optimize
+- Fixed an instance where Daylight would not optimize
+- Fixed an instance where Gone Home would not optimize
+- Fixed an instance where Mortal Kombat X would not optimize
+- Fixed an instance where Vampyr would nod optimize
+- Game name changed to Batman: Arkham Origins
+- Game name changed to Batman: Arkham Knight
+- Reworked optimization for Rainbow Six Siege (removed manual file movement)
+- Reworked optimization for Watch Dogs (removed manual file movement)
+- Reworked optimization for Watch Dogs 2 (removed use of ReSwitch)
+
+Low Specs Experience Legacy Edition 7.5.5 (23/8/2018)
+- Fixed 'premium activation page loading bootstrapper page instead of previous'
+- Fixed an instance where Alien: Isolation would not optimize
+- Fixed an instance where Company of Heroes 2 would not optimize
+- Fixed an instance where Dead or Alive 5 Last Round would not optimize
+- Fixed an instance where Dragon Ball Xenoverse would not optimize
+- Fixed an instance where Dragon Ball Xenoverse 2 would not optimize
+- Fixed an instance where FIFA 15 would not optimize
+- Fixed an instance where FIFA 16 would not optimize
+- Fixed an instance where FIFA 17 would not optimize
+- Fixed an instance where Heroes of the Storm would not optimize
+- Fixed an instance where Homefront: The Revolution would not optimize
+- Fixed an instance where I Am Alive would not optimize
+- Fixed an instance where Just Cause 2 would not optimize
+- Fixed an instance where Just Cause 3 would not optimize
+- Fixed an instance where Kingdom Come Deliverance would not optimize
+- Fixed an instance where League of Legends would not optimize
+- Fixed an instance where Naruto Shipp. Ultimate Ninja Storm Revolution would not optimize
+- Fixed an instance where Naruto Shipp. Ultimate Ninja Storm 4 would not optimize
+- Fixed an instance where NBA 2K16 would not optimize
+- Fixed an instance where NBA 2K17 would not optimize
+- Fixed an instance where NBA 2K18 would not optimize
+- Fixed an instance where Nioh would not optimize
+- Fixed an instance where No Man's Sky would not optimize
+- Fixed an instance where Plants vs Zombies Garden Warfare would not optimize
+- Fixed an instance where Plants vs Zombies Garden Warfare 2 would not optimize
+- Fixed an instance where Playerunknown's Battlegrounds would not optimize
+- Fixed an instance where Prey would not optimize
+- Fixed an instance where Pro Evolution Soccer 2013 would not optimize
+- Fixed an instance where Pro Evolution Soccer 2014 would not optimize
+- Fixed an instance where Pro Evolution Soccer 2015 would not optimize
+- Fixed an instance where Pro Evolution Soccer 2016 would not optimize
+- Fixed an instance where Pro Evolution Soccer 2017 would not optimize
+- Fixed an instance where Pro Evolution Soccer 2018 would not optimize
+- Fixed an instance where Rust Experimental would not optimize
+- Fixed an instance where Saint Seiya Soldiers' Soul would not optimize
+- Fixed an instance where Sleeping Dogs Standard Edition would not optimize
+- Fixed an instance where Sleeping Dogs Definitive Edition would not optimize
+- Fixed an instance where Smite would not optimize
+- Fixed an instance where Sniper Elite V2 would not optimize
+- Fixed an instance where Sniper Elite 3 would not optimize
+- Fixed an instance where Sniper Elite 4 would not optimize
+- Fixed an instance where Sniper Elite: Nazi Zombie Army would not optimize
+- Fixed an instance where Sniper Elite: Nazi Zombie Army 2 would not optimize
+- Fixed an instance where Sniper Elite: Zombie Army Trilogy would not optimize
+- Fixed an instance where Sniper Ghost Warrior would not optimize
+- Fixed an instance where Sniper Ghost Warrior 2 would not optimize
+- Fixed an instance where Sniper Ghost Warrior 3 would not optimize
+- Fixed an instance where Star Wars: Battlefront would not optimize
+- Fixed an instance where Tekken 7 would not optimize
+- Fixed an instance where The Amazing Spiderman 2 would not optimize
+- Fixed an instance where TES 5: Skyrim Standard Edition would not optimize
+- Fixed an instance where TES 5: Skyrim Special Edition would not optimize
+- Fixed an instance where The Evil Within would not optimize
+- Fixed an instance where The Evil Within 2 would not optimize
+- Fixed an instance where The Surge would not optimize
+- Fixed an instance where The Witcher 2: Assassins of Kings would not optimize
+- Fixed an instance where The Witcher 3: Wild Hunt would not optimize
+- Fixed an instance where Titanfall would not optimize
+- Fixed an instance where Titanfall 2 would not optimize
+- Fixed an instance where Ghost Recon: Wildlands would not optimize
+- Fixed an instance where The Division would not optimize
+- Fixed an instance where Tree of Savior would not optimize
+- Fixed an instance where Wolfenstein 2: The New Colossus would not optimize
+- Fixed an instance where Wolfenstein: The New Order would not optimize
+- Fixed an instance where Wolfenstein: The Old Blood would not optimize
+- Fixed an instance where WWE 2K15 would not optimize
+- Fixed an instance where WWE 2K16 would not optimize
+- Fixed an instance where WWE 2K17 would not optimize
+- Fixed an instance where WWE 2K18 would not optimize
+
+Low Specs Experience Legacy Edition 7.5.4 (22/8/2018)
+- Added activate premium button in home and optimization catalog sections
+- Added bootstrapper button in home and optimization catalog sections
+- Fixed an instance where Abzu would not optimize
+- Fixed an instance where Alan Wake would not optimize
+- Fixed an instance where Alan Wake's American Nightmare would not optimize
+- Fixed an instance where American Truck Simulator would not optimize
+- Fixed an instance where Anno 2205 would not optimize
+- Fixed an instance where Arma 3 would not optimize
+- Fixed an instance where Crysis would not optimize
+- Fixed an instance where Crysis Warhead would not optimize
+- Fixed an instance where Crysis 2 would not optimize
+- Fixed an instance where Crysis 3 would not optimize
+- Fixed an instance where Dead Island Definitive Edition would not optimize
+- Fixed an instance where Dead Island: Riptide Definitive Edition would not optimize
+- Fixed an instance where Dead Island Standard Edition would not optimize
+- Fixed an instance where Dead Island Riptide Standard Edition would not optimize
+- Fixed an instance where Dead Rising Remastered would not optimize
+- Fixed an instance where Dead Rising 3 would not optimize
+- Fixed an instance where Dead Rising 4 would not optimize
+- Fixed an instance where Deceit would not optimize
+- Fixed an instance where Dirt 4 would not optimize
+- Fixed an instance where Dirt Rally would not optimize
+- Fixed an instance where Dishonored 2 would not optimize
+- Fixed an instance where Divinity: Original Sin 2 would not optimize
+- Fixed an instance where Dying Light would not optimize
+- Fixed an instance where Euro Truck Simulator 2 would not optimize
+- Fixed an instance where Far Cry 2 would not optimize
+- Fixed an instance where Far Cry 3 would not optimize
+- Fixed an instance where Far Cry 3: Blood Dragon would not optimize
+- Fixed an instance where Far Cry 4 would not optimize
+- Fixed an instance where Far Cry Primal would not optimize
+- Fixed an instance where Far Cry 5 would not optimize
+- Fixed an instance where Forza Horizon 3 would not optimize
+- Removed features page and replaced with help the development page
+
+Low Specs Experience Legacy Edition 7.5.3 (21/8/2018)
+- Fixed an instance where Battlefield: Bad Company 2 would not optimize
+- Fixed an instance where Battlefield 3 would not optimize
+- Fixed an instance where Battlefield 4 would not optimize
+- Fixed an instance where Battlefield Hardline would not optimize
+- Fixed an instance where Hellblade: Senua's Sacrifice would not optimize
+- Fixed an instance where Mafia 2 would not optimize
+- Fixed an instance where Mafia 3 would not optimize
+- Fixed an instance where Mass Effect would not optimize
+- Fixed an instance where Mass Effect 2 would not optimize
+- Fixed an instance where Mass Effect 3 would not optimize
+- Fixed an instance where Mass Effect: Andromeda would not optimize
+- Fixed an instance where Mirror's Edge Catalyst would not optimize
+- Fixed an instance where Need for Speed: Hot Pursuit would not optimize
+- Fixed an instance where Need for Speed: Shift would not optimize
+- Fixed an instance where Need for Speed: SHIFT 2: Unleashed would not optimize
+- Fixed an instance where Need for Speed: Most Wanted would not optimize
+- Fixed an instance where Need for Speed Rivals would not optimize
+- Fixed an instance where Need for Speed Reboot would not optimize
+- Fixed an instance where Need for Speed Payback would not optimize
+- Fixed an instance where Nier: Automata would not optimize
+- Fixed an instance where Project CARS would not optimize
+- Fixed an instance where Project CARS 2 would not optimize
+- Fixed an instance where Quantum Break would not optimize
+- Fixed an instance where GRID 2 would not optimize
+- Fixed an instance where GRID Autosport would not optimize
+- Fixed an instance where Redeemer would not optimize
+- Fixed an instance where Resident Evil 5 / Biohazard 5 would not optimize
+- Fixed an instance where State of Decay would not optimize
+- Fixed an instance where State of Decay 2 would not optimize
+- Game name changed from Battlefield Bad Company 2 to Battlefield: Bad Company 2
+- Game name changed from Mass Effect Andromeda to Mass Effect: Andromeda
+- Game name changed from Hellblade Senua's Sacrifice to  Hellblade: Senua's Sacrifice
+- Minor text adjustments in the optimization catalog section
+
+Low Specs Experience Legacy Edition 7.5.2 (16/8/2018)
+- Redesigned background processing of ReSwitch
+
+Low Specs Experience Legacy Edition 7.5.1 (16/8/2018)
+- Compatibility fixes for Deadpool optimization
+- Compatibility fixes for Dishonored optimization
+- Compatibility fixes for Goat Simulator optimization
+- Compatibility fixes for Outlast optimization
+- Compatibility fixes for Outlast optimization
+- Compatibility fixes for Paladins optimization
+- Compatibility fixes for Remember Me optimization
+- Compatibility fixes for Rocket League optimization
+- Compatibility fixes for Sherlock Holmes: The Devil's Daughter optimization
+- Compatibility fixes for Spec Ops: The Line optimization
+- Game name changed from SH: The Devil's Daughter to Sherlock Holmes: The Devil's Daughter
+
+Low Specs Experience Legacy Edition 7.5.0 (15/8/2018)
+- Added all new RagnoTech™ Streamline Design for Installation Wizard
+- Added all new RagnoTech™ Streamline Background Processing (less disk space required)
+- Added optimization support for Call of Duty: Black Ops 4
+- Compatibility fixes for Call of Duty: Advanced Warfare optimization
+- Compatibility fixes for Call of Duty: Black Ops optimization
+- Compatibility fixes for Call of Duty: Black Ops 2 optimization
+- Compatibility fixes for Call of Duty: Black Ops 3 optimization
+- Compatibility fixes for Call of Duty: Ghosts optimization
+- Compatibility fixes for Call of Duty: Modern Warfare Remastered optimization
+- Compatibility fixes for Call of Duty: Infinite Warfare optimization
+- Compatibility fixes for Call of Duty: World War 2 optimization
+- Compatibility fixes for Call of Juarez: Gunslinger optimization
+- Fixed an instance where Aliens: Colonial Marines would not optimize
+- Fixed an instance where Bioshock Infinite would not optimize
+- Fixed an instance where the shortcuts would not appear on Desktop after installation
+- Game name changed from Aliens Colonial Marines to Aliens: Colonial Marines
+- Game name changed from Call of Duty Advanced Warfare to Call of Duty: Advanced Warfare
+- Game name changed from Call of Duty Black Ops to Call of Duty: Black Ops
+- Game name changed from Call of Duty Black Ops 2 to Call of Duty: Black Ops 2
+- Game name changed from Call of Duty Black Ops 3 Call of Duty: Black Ops 3
+- Game name changed from Call of Duty Ghosts to Call of Duty: Ghosts
+- Game name changed from Call of Duty MWR to Call of Duty: Modern Warfare Remastered
+- Game name changed from Call of Duty Infinite Warfare to Call of Duty: Infinite Warfare
+- Game name changed from Call of Duty World War 2 to Call of Duty: World War 2
+- Game name changed from Call of Juarez Gunslinger to Call of Juarez: Gunslinger
+
+Low Specs Experience Legacy Edition 7.4.9 (11/8/2018)
+- Added optimization support for Fallout 3
+- Fixed an instance where Homefront would not optimize
+- Fixed an instance where Life is Strange would not optimize
+- Reworked optimization for Fallout: New Vegas
+
+Low Specs Experience Legacy Edition 7.4.8 (9/8/2018)
+- Added dedicated check for updates and feedback buttons
+- Exit button has been moved to the bottom of the user interface
+- Fixed an instance where Batman Arkham: Origins would not optimize
+- Fixed an instance where Batman Arkham: Knight would not optimize
+- Merged contact support and feedback sections
+
+Low Specs Experience Legacy Edition 7.4.7 (7/8/2018)
+- Added optimization support for Metro 2033
+- Added optimization support for Metro 2033 Redux
+- Added optimization support for Metro: Last Light
+- Added optimization support for Metro: Last Light Redux
+- Fixed 'crash on startup' for Borderlands optimization after restoring to default
+- Fixed 'crash on startup' for Borderlands 2 optimization after restoring to default
+- Fixed 'crash on startup' for Borderlands: The Pre-Sequel after restoring to default
+- Fixed 'crash on startup' for XCOM Declassified optimization after restoring to default
+- Fixed 'crash on startup' for XCOM: Enemy Unknown optimization after restoring to default
+- Fixed 'crash on startup' for XCOM: Enemy Within optimization after restoring to default
+- Fixed 'crash on startup' for XCOM 2 optimization after restoring to default
+
+Low Specs Experience Legacy Edition 7.4.6 (30/7/2018)
+- Added optimization support for XCOM Declassified (The Bureau: XCOM Declassified)
+- Added optimization support for XCOM: Enemy Unknown
+- Added optimization support for XCOM: Enemy Within
+- Reworked optimization for XCOM 2
+
+Low Specs Experience Legacy Edition 7.4.5 (24/7/2018)
+- Added optimization support for Dark Souls 2: Scholar of the First Sin
+- Added optimization support for Max Payne 3
+- Added optimization support for Thief
+- Fixed 'typo on optimization message' for Far Cry 5 optimization
+- Fixed 'potato-low optimization shown but not available' for Call of Duty: Infinite Warfare
+- Fixed 'potato-low optimization shown but not available' for Call of Duty: MW Remastered
+- Fixed 'user-interface completely black' due to the double buffering method
+- Reworked optimization for Mad Max
+
+Low Specs Experience Legacy Edition 7.4.4 (17/7/2018)
+- Added optimization support for Final Fantasy 15 (FFXV)
+- Added optimization support for The Awesome Adventures of Captain Spirit
+- Changed icons for the main software user-interface buttons
+- Compatibility fixes for Splinter Cell: Blacklist optimization
+- Fixed an instance where Assassins Creed 2 would not optimize
+- Fixed an instance where Assassin's Creed: Brotherhood would not optimize
+- Fixed an instance where Assassin's Creed: Revelations would not optimize
+- Fixed 'black indoor areas' bug with The Division ultra-low and potato-low optimizations
+- Fixed 'installation wizard crash' bug occurring for some users during installation
+- Game name changed from Assassin's Creed Brotherhood to Assassin's Creed: Brotherhood
+- Game name changed from Assassin's Creed Revelations to Assassin's Creed: Revelations
+- Game name changed from Dragon Age Inquisition to Dragon Age: Inquisition
+- Game name changed from Splinter-Cell Blacklist to Splinter Cell: Blacklist
+- Game name changed from Splinter-Cell Conviction to Splinter Cell: Conviction
+- Redesigned installation wizard background processing
+- Reworked optimization for Dragon Age: Inquisition
+
+Low Specs Experience Legacy Edition 7.4.3 (3/7/2018)
+- Fixed an instance where the ReSwitch would loop users after execution
+
+Low Specs Experience Legacy Edition 7.4.2 (29/6/2018)
+- Added optimization support for PAYDAY: The Heist
+- Fixed disabled in-game music for Need for Speed Payback optimization
+- Fixed disabled in-game music for Need for Speed: Shift 2 Unleashed optimization
+- Fixed disabled in-game music for Need for Speed: Most Wanted optimization
+- Fixed disabled in-game music for Need for Speed Rivals optimization
+- Reworked optimization for Saints Row: The Third
+- Reworked optimization for Saints Row 4
+- Reworked optimization for Saints Row: Gat out of Hell
+- Game name changed from Need for Speed Hot Pursuit to Need for Speed: Hot Pursuit
+- Game name changed from Need for Speed Shift to Need for Speed: Shift
+- Game name changed from Need for Speed Shift 2 Unleashed to Shift 2 Unleashed
+- Game name changed from Need for Speed Most Wanted to need for Speed: Most Wanted
+- Game name changed from Sleeping Dogs SE to Sleeping Dogs: SE
+- Game name changed from Sleeping Dogs DE to Sleeping Dogs: DE
+- Game name changed from NieR Automata to NieR: Automata
+
+Low Specs Experience Legacy Edition 7.4.1 (25/6/2018)
+- Fixed 'all optimization methods not showing' for Resident Evil 6 / Biohazard 6 optimization
+
+Low Specs Experience Legacy Edition 7.4.0 (25/6/2018)
+- Fixed command list for The Crew 2 manual optimization
+
+Low Specs Experience Legacy Edition 7.3.9 (24/6/2018)
+- Added optimization support for The Crew 2
+- Compatibility fixes for Fallout 4 optimization
+- Reworked optimization for Resident Evil 7 / Biohazard 7
+
+Low Specs Experience Legacy Edition 7.3.8 (23/6/2018)
+- Added optimization support for Middle-Earth: Shadow of Mordor
+- Added optimization support for I Am Alive
+- Added optimization support for The Forest
+- Reworked optimization for Resident Evil 5 / Biohazard 5
+- Reworked optimization for Resident Evil 6 / Biohazard 6
+- Game name changed from Middle-Earth Shadow of War to Middle-Earth: Shadow of War
+- Game name changed from Resident Evil 5 to Resident Evil 5 / Biohazard 5
+- Game name changed from Resident Evil 6 to Resident Evil 6 / Biohazard 6
+
+Low Specs Experience Legacy Edition 7.3.7 (22/6/2018)
+- Fixed an instance where Borderlands would not optimize correctly
+- Fixed an instance where Borderlands 2 would not optimize correctly
+- Fixed an instance where Borderlands: The Pre-Sequel would not optimize correctly
+
+Low Specs Experience Legacy Edition 7.3.6 (16/6/2018)
+- Added optimization support for State of Decay 2 optimization
+- Added optimization support for The Sims 3
+- Reworked optimization for The Sims 4
+
+Low Specs Experience Legacy Edition 7.3.5 (10/6/2018)
+- Added optimization support for Agony
+- Added optimization support for Daylight
+- Added optimization support for Dead Rising 4
+- Added optimization support for Vampyr
+- Fixed 'restore default button not working' for The Division optimization
+- Fixed 'restore default button not working' for Assassin's Creed optimization
+- Fixed 'restore default button not working' for Dark Souls Remastered optimization
+- Fixed 'restore default button not working' for Dark Souls 2 optimization
+- Fixed 'restore default button not working' for Dark Souls 3 optimization
+- Fixed 'restore default button not working' for Dragon Ball Xenoverse optimization
+- Fixed 'restore default button not working' for Gone Home optimization
+- Fixed 'restore default button not working' for Mortal Kombat X optimization
+- Fixed 'restore default button not working' for PAYDAY 2 optimization
+- Fixed 'restore default button not working' for Plants vs Zombies GW optimization
+- Fixed 'restore default button not working' for Sint Seiya Soldiers' Soul optimization
+- Fixed 'restore default button not working' for Sniper Elite V2 optimization
+- Fixed 'restore default button not working' for Sniper Elite 3 optimization
+- Fixed 'restore default button not working' for Sniper Elite 4 optimization
+- Fixed 'restore default button not working' for Zombie Army Trilogy optimization
+- Fixed 'restore default button not working' for Splinter Cell Conviction optimization
+- Reworked optimization for Dead Rising 3
+
+Low Specs Experience Legacy Edition 7.3.4 (2/6/2018)
+- Merged premium activation tool with the main user-interface
+- Polished premium features messages
+- Polished main user-interface with new icons and a few aesthetic changes
+- Polished optimization control panel drop-down selection menu
+- Polished optimization catalog drop-down selection menu
+- Changed the icon of the Low Specs Experience and ReSwitch tool
+
+Low Specs Experience Legacy Edition 7.3.3 (26/5/2018)
+- Added optimization support for Dark Souls Remastered
+- Added optimization support for Project CARS 2
+- Added optimization support for Spec Ops: The Line
+- Fixed 'UnhandledException' error after 'continue to LSE' button is clicked
+- Fixed 'LSE disappearing from taskbar after 'continue to LSE' button is clicked
+- Reworked optimization for Project CARS
+- Reworked optimization for The Evil Within
+- Removed optimization support for Dark Souls Standard Edition
+
+Low Specs Experience Legacy Edition 7.3.2 (19/5/2018)
+- Added optimization support for Sniper Elite 4
+- Fixed 'specified file not found' problem with Zombie Army Trilogy optimization
+
+Low Specs Experience Legacy Edition 7.3.1 (18/5/2018)
+- Fixed 'stuck on step-1' of the installation problem occurring for some Windows 7 users
+- Minor background changes in terms of the installation file processing
+
+Low Specs Experience Legacy Edition 7.3.0 (17/5/2018)
+- Added support for Sniper Elite Zombie Army Trilogy optimization
+- Reworked optimization for Dark Souls 3
+- Reworked optimization for Sniper Elite V2
+- Reworked optimization for Sniper Elite 3
+- Reworked optimization for Sniper Elite Nazi Zombie Army
+- Reworked optimization for Sniper Elite Nazi Zombie Army 2
+
+Low Specs Experience Legacy Edition 7.2.9 -(10/5/2018)
+- Added support for Hitman Absolution optimization
+- Reworked optimization for Need for Speed Hot Pursuit
+- Reworked optimization for Need for Speed Shift
+- Reworked optimization for Need for Speed Shift 2 Unleashed
+- Reworked optimization for Hitman
+- Reworked optimization for Rocket League
+
+Low Specs Experience Legacy Edition 7.2.8 (3/5/2018)
+- Added optimization support for Dishonored
+- Reworked optimization for Anno 2205
+- Reworked optimization for Company of Heroes 2
+- Reworked optimization for Deadpool
+- Reworked optimization for DiRT Rally
+- Reworked optimization for Mafia 3
+
+Low Specs Experience Legacy Edition 7.2.7 (21/4/2018)
+- Reworked optimization for Far Cry 2
+- Reworked optimization for Far Cry 3 Blood Dragon
+- Reworked optimization for Homefront
+- Reworked optimization for Need for Speed Most Wanted
+- Reworked optimization for Need for Speed Rivals
+- Reworked optimization for Race Driver GRID 2
+- Reworked optimization for Race Driver GRID Autosport
+
+Low Specs Experience Legacy Edition 7.2.6 (15/4/2018)
+- Reworked optimization for Mass Effect
+- Reworked optimization for Mass Effect 2
+- Reworked optimization for Mass Effect 3
+- Reworked optimization for Rainbow-Six Siege
+- Reworked optimization for Splinter-Cell Blacklist
+- Reworked optimization for Splinter-Cell Conviction
+
+Low Specs Experience Legacy Edition 7.2.5 (11/4/2018)
+- Added RagnoTech™ Super-Fast Installation Wizard
+- RagnoTech™ Analytics Service is now implemented into the core code of the software
+- Stability improvements and refinements for the user-interface responsiveness
+
+Low Specs Experience Legacy Edition 7.2.4 (7/4/2018)
+- Fixed 'unhandled exception' error for some users on 'Load Optimization Package' button
+- Reworked optimization for Battlefield Bad Company 2
+- Reworked optimization for Batman Arkham Origins
+- Reworked optimization for Dying Light
+- Reworked optimization for Mafia 2
+- Reworked RagnoTech™ Analytics Service
+- Reworked RagnoTech™ Background Processing
+- Reworked RagnoTech™ Installation Wizard
+
+Low Specs Experience Legacy Edition 7.2.3 (4/4/2018)
+- Added a startup warning message on the Installation Wizard
+- Minor changes to the installation process to ensure maximum speed and stability
+
+Low Specs Experience Legacy Edition 7.2.2 (4/4/2018)
+- Reworked optimization for Far Cry 4
+- Reworked optimization for Far Cry Primal
+
+Low Specs Experience Legacy Edition 7.2.1 (31/3/2018)
+- Added optimization support for Need for Speed Payback
+- Added optimization support for Far Cry 5
+- Reworked optimization for Battlefield 3
+- Reworked optimization for Battlefield 4
+- Corrected field of view values for Crysis 1 optimization (from 80 to 60)
+
+Low Specs Experience Legacy Edition 7.2.0 (26/3/2018)
+- Fixed 'Call of Duty Advanced Warfare would not optimize correctly for multiplayer mode'
+
+Low Specs Experience Legacy Edition 7.1.9 (25/3/2018)
+- Added 'Safe Mode Trigger' message for all Call of Duty optimizations
+- Reworked optimization for Call of Duty Black Ops 3
+- Reworked optimization for Call of Duty Ghosts
+- Reworked optimization for Call of Duty Advanced Warfare
+- Compatibility fixes for Batman Arkham Knight optimization
+- Fixed the size of the premium user-interface to fully match the background (+0, +1 pixels)
+
+Low Specs Experience Legacy Edition 7.1.8 (17/3/2018)
+- Removed duplicate commands from Assassin's Creed 3 optimization
+- Removed duplicate commands from Assassin's Creed Liberation HD optimization
+- Removed duplicate commands from Assassin's Creed 4 Black Flag + Freedom Cry optimization
+- Removed duplicate commands from Assassin's Creed Unity optimization
+- Removed duplicate commands from Assassin's Creed Rogue optimization
+- Removed duplicate commands from Assassin's Creed Syndicate optimization
+
+Low Specs Experience Legacy Edition 7.1.7 (16/3/2018)
+- Changed the appearance of exit box LSE UI (font change)
+- Changed the appearance of the RagnoTech™ installation wizard (font change)
+- Reworked optimization for Assassin's Creed 3
+- Reworked optimization for Assassin's Creed Liberation HD
+- Reworked optimization for Assassin's Creed 4 Black Flag + Freedom Cry
+- Reworked optimization for Assassin's Creed Unity
+- Reworked optimization for Assassin's Creed Rogue
+- Reworked optimization for Assassin's Creed Syndicate
+
+Low Specs Experience Legacy Edition 7.1.6 (16/3/2018)
+- Fixed file placement for Euro Truck Simulator 2 optimization
+- Minor background adjustments for the upcoming updates
+
+Low Specs Experience Legacy Edition 7.1.5 (9/3/2018)
+- Added optimization support for Deceit
+- Added optimization support for Kingdom Come Deliverance
+- Compatibility fixes for American Truck Simulator optimization
+- Compatibility fixes for Euro Truck Simulator 2 optimization
+- Compatibility fixes for LiS: Before the Storm optimization (ep. Farewell support)
+- Reworked optimization for Watch Dogs
+
+Low Specs Experience Legacy Edition 7.1.4 (1/3/2018)
+- Added optimization support for Call of Juarez Gunslinger
+- Reworked optimization for Bioshock Infinite
+- Reworked optimization for Borderlands
+- Reworked optimization for Borderlands 2
+- Reworked optimization for Borderlands The Pre-Sequel
+
+Low Specs Experience Legacy Edition 7.1.3 (25/2/2018)
+- Compatibility fixes for Assassin’s Creed optimization
+- Compatibility fixes for Assassin’s Creed 2 optimization
+- Compatibility fixes for Assassin’s Creed Brotherhood optimization
+- Compatibility fixes for Assassin’s Creed Revelations optimization
+
+Low Specs Experience Legacy Edition 7.1.2 (21/2/2018)
+- Added new refined and polished user-interface
+- Added quick access links to the feedback and update pages
+- Polished and centered quick access and all other buttons on all pages
+- Removed pop-up about donations on startup of the Low Specs Experience
+- Minor background changes to the core code of the Low Specs Experience
+
+Low Specs Experience Legacy Edition 7.1.1 (14/2/2018)
+- Added optimization support for Divinity Original Sin 2
+- Added optimization support for Nioh
+- Centered optimization drop-down menu on optimization catalog tab
+- Fixed typo with Call of Duty Advanced Warfare optimization name (advnced to advanced)
+- Removed type-in from optimization catalog drop-drop down menu
+- Removed type-in from ReSwitch resolution selection menu
+- Reworked optimization for Call of Duty Black Ops
+
+Low Specs Experience Legacy Edition 7.1.0 (24/1/2018)
+- Polishing changes to the user-interface of RagnoTech™ Installation Wizard
+
+Low Specs Experience Legacy Edition 7.0.9 (22/1/2018)
+- Fixed problem with ReSwitch not utilizing for some users
+- Added brand new in-house RagnoTech™ Installation Wizard — removed inno setup wizard
+- Added installation progress bar to show the installation progress with white line
+- Removed ReSwitch installation from startup — installs with core software now
+- Installation folder moved from %ProgramFiles% to %SystemDrive%
+
+Low Specs Experience Legacy Edition 7.0.8 (19/1/2018)
+- Fixed problem with ArmA 3 optimization not working correctly for some users
+- Fixed problem with analytics code reading, if the error occurs then resume to next line
+- Fixed typo on 'Optimization Catalogue' button, should be 'Catallogue'
+- Updated text for terms of service box
+- Updated text for premium messages
+- Removed C++ Redist installation packages in Redist folder and replaced with download link
+
+Low Specs Experience Legacy Edition 7.0.7 (10/1/2018)
+- Added optimization support for Assassin's Creed Origins
+- Added optimization support for Redeemer
+- Compatibility fixes for Playerunknown's Battlegrounds optimization
+- Compatibility fixes for Wolfenstein 2 The New Colossus optimization
+
+Low Specs Experience Legacy Edition 7.0.6 (9/1/2018)
+- Fixed an instance where Sherlock Holmes The Devil's Daughter would not optimize correctly
+- Fixed 'LSE crash' on early Windows Vista builds (5456, 5472 and 5536)
+- Minor changes to the core code of the Low Specs Experience
+
+Low Specs Experience Legacy Edition 7.0.5 (6/1/2018)
+- Fixed an instance where Dragon Age Inquisition would not optimize correctly
+- Fixed startup message on all 185 optimization control panels to match the new layout
+- Updated changelog to match the correct previous versions of the Low Specs Experience
+
+Low Specs Experience Legacy Edition 7.0.4 (2/1/2018)
+- Fixed an instance where Batman Arkham Knight would not optimize correctly
+- Fixed an instance where The Evil Within would not optimize correctly
+- Fixed some incorrectly spelled words in the user interface
+
+Low Specs Experience Legacy Edition 7.0.3 (1/1/2018)
+- Added buttons for most important guides to quick access buttons
+- Added final design 2018 style user-interface
+- Redesigned bootstrapper to math the new final 2018 style user-interface
+- Redesigned all 185 optimization control panels to match the new final 2018 style UI
+- Removed potato-low optimization method for Assassin's Creed Brotherhood
+- Removed potato-low optimization method for Assassin's Creed Revelations
+- Removed ReSwitch installation pop-up on the startup of the Low Specs Experience
+- Stability and performance improvements
+
+Low Specs Experience Legacy Edition 7.0.2 (29/12/2017)
+- Fixed internal bug preventing some users from installing and using the ReSwitch
+- We've taken care of some internal things to make the user experience even smoother
+
+Low Specs Experience Legacy Edition 7.0.1 (21/12/2017)
+- Added optimization support for Life is Strange Before the Storm Episode 3
+- Installation messages put in the correct order (2/1 previous) - (1/2 correct)
+
+Low Specs Experience Legacy Edition 7.0.0 (18/12/2017)
+- All-new and fresh Legacy Edition user-interface design
+- Fresh start for the Low Specs Experience
+
+Low Specs Experience 6.1.7 Beta (14/12/2017)
+- Fixed 'restore default button not working' for Tree of Savior optimization
+- Updated file placement for Assassin’s Creed Brotherhood optimization
+- Updated file placement for Assassin’s Creed Revelations optimization
+- Updated file placement for Call of Duty Infinite Warfare optimization
+- Updated file placement for Call of Duty Modern Warfare Remastered optimization
+- Updated file placement for Dark Souls 3 optimization
+- Updated file placement for Mad Max optimization
+- Updated file placement for Mirror’s Edge Catalyst optimization
+- Updated file placement for Plants vs Zombies Garden Warfare optimization
+- Updated file placement for Plants vs Zombies Garden Warfare 2 optimization
+- Updated file placement for Pro Evolution Soccer 2013 optimization
+- Updated file placement for Pro Evolution Soccer 2014 optimization
+- Updated file placement for Pro Evolution Soccer 2015 optimization
+- Updated file placement for Pro Evolution Soccer 2016 optimization
+- Updated file placement for Pro Evolution Soccer 2017 optimization
+- Updated file placement for Saint Seiya Soldiers’s Soul optimization
+- Updated file placement for Smite optimization
+- Updated file placement for Sleeping Dogs Standard Edition optimization
+- Updated file placement for Sleeping Dogs Definitive Edition optimization
+- Updated file placement for Star Wars Battlefront optimization
+- Updated file placement for The Elder Scrolls 5 Skyrim Standard Edition optimization
+- Updated file placement for The Elder Scrolls 5 Skyrim Special Edition optimization
+- Updated file placement for The Evil Within optimization
+- Updated file placement for The Division optimization
+
+Low Specs Experience 6.1.6 Beta (3/12/2017)
+- Fixed 'restore default button not working' for Watch_Dogs 2 optimization
+- Updated file placement for Batman Arkham Origins optimization
+- Updated file placement for Dark Souls optimization
+- Updated file placement for Dark Souls 2 optimization
+- Updated file placement for Dead or Alive 5 Last Round optimization
+- Updated file placement for Dead Rising Remastered optimization
+- Updated file placement for Dead Rising 3 optimization
+- Updated file placement for FIFA 15 optimization
+- Updated file placement for FIFA 16 optimization
+- Updated file placement for FIFA 17 optimization
+- Updated file placement for Gone Home optimization
+
+Low Specs Experience 6.1.5 Beta (2/12/2017)
+- Fixed 'restore default button not working' for Sniper Elite V2 optimization
+- Fixed 'restore default button not working' for Sniper Elite 3 optimization
+- Updated file placement for Company of Heroes 2 optimization
+- Updated file placement for Deadpool optimization
+- Updated file placement for Dirt Rally optimization
+- Updated file placement for Far Cry 2 optimization
+- Updated file placement for Far Cry 3 optimization
+- Updated file placement for Need for Speed Shift optimization
+- Updated file placement for Need for Speed Shift 2 Unleashed optimization
+- Updated file placement for No Man’s Sky optimization
+- Updated file placement for Paladins optimization
+- Updated file placement for Race Driver Grid 2 optimization
+- Updated file placement for Race Driver Grid Autosport optimization
+- Updated file placement for Shadow Warrior 2 optimization
+- Updated file placement for Sniper Elite Nazi Zombie Army optimization
+- Updated file placement for Sniper Elite Nazi Zombie Army 2 optimization
+
+Low Specs Experience 6.1.4 Beta (28/11/2017)
+- Added optimization support for Call of Duty World War 2
+- Added optimization support for Wolfenstein 2 The New Colossus
+- Fixed 'broken Report a Problem button' for 85 optimizations
+- Fixed 'broken Learn More About This button' for 85 optimizations
+- Fixed 'restore default' message on WWE 2K15 optimization
+- Fixed 'restore default' message on WWE 2K16 optimization
+- Fixed 'restore default' message on WWE 2K17 optimization
+- Fixed 'restore default' message on WWE 2K18 optimization
+- Updated file placement for Anno 2205 optimization
+- Updated file placement for Arma 3 optimization
+- Updated file placement for Battlefield Bad Company 2 optimization
+- Updated file placement for Battlefield 3 optimization
+- Updated file placement for Battlefield 4 optimization
+- Updated file placement for Battlefield Hardline optimization
+- Updated file placement for Battlefield 1 optimization
+- Updated file placement for Bioshock Infinite optimization
+- Updated file placement for Dead Island Definitive Edition optimization
+- Updated file placement for Dead Island Riptide Definitive Edition optimization
+- Updated file placement for Dead Island Standard Edition optimization
+- Updated file placement for Dead Island Riptide Standard Edition optimization
+- Updated file placement for Sniper Elite V2 optimization
+- Updated file placement for Sniper Elite 3 optimization
+- Updated file placement for Sniper Ghost Warrior optimization
+- Updated file placement for Sniper Ghost Warrior 2 optimization
+- Updated file placement for Tree of Savior optimization
+- Updated file placement for Xcom 2 optimization
+
+Low Specs Experience 6.1.3 Beta (17/11/2017)
+- Added all three premium version perks to the optimization catalog page
+- Removed 'Learn More About This' unclickable button from the optimization catalog page
+- Fixed some minor issues with the installation of the Low Specs Experience
+
+Low Specs Experience 6.1.2 Beta (17/11/2017)
+- Added startup check for missing files and features
+- Finishing touches to buttons - the size of buttons now matches the clickable area
+- Fixed 'users being stranded' on the optimize button after start up instead of the bootstrapper
+- Fixed problem with stutter on startup of the Low Specs Experience on systems with <2GB RAM
+- Fixed problem with high RAM usage for some users on Windows Vista, 7 and 8 operating systems
+- Fixed crash while navigating just added feedback and update sections of the software
+- Removed ReSwitch installation from optimize page
+- Stability improvements
+
+Low Specs Experience 6.1.1 Beta (14/11/2017)
+
+- ReSwitch installation moved from startup location to optimize tab
+- Optimize tab is now optimization catalog
+- Support tab has been moved to the third position in the menu
+- Features tab has been replaced by the feedback tab in the fourth position in the menu
+- About tab has been replaced by the update tab in the fifth position in the menu
+- Menu icons have been refreshed to match the Windows 10 kind of look
+- Other little changes and improvements have been made
+* From this update release LSE V6 has been put into Beta testing phase
+
+Low Specs Experience 6.1.0 - (8/11/2017)
+- Added optimization support for Abzu optimization
+- Added optimization support for Middle-Earth Shadow of War optimization
+- Added optimization support for NBA 2k18 optimization
+- Added optimization support for WWE 2k18 optimization
+- Added ‘Premium Features’ page to the premium version of bootstrapper menu
+- Fixed random ‘web.toolkit’ missing error while using the Low Specs Experience
+- Fixed problem with ‘ReSwitch missing’ on older versions of Windows operating systems
+- Fixed ‘missing message’ about the custom shortcut for The Evil Within 2 optimization
+- Fixed ‘access denied’ error when selecting Alien Isolation optimization
+- Fixed ‘access denied’ error when selecting Aliens Colonial Marines optimization
+- Fixed ‘access denied’ error when selecting Crysis 3 optimization
+- Fixed ‘access denied’ error when selecting Dishonored 2 optimization
+- Fixed ‘access denied’ error when selecting Forza Horizon 3 optimization
+- Fixed ‘access denied’ error when selecting Just Cause 3 optimization
+- Fixed ‘access denied’ error when selecting Mass Effect optimization
+- Fixed ‘access denied’ error when selecting Mass Effect Andromeda optimization
+- Fixed ‘access denied’ error when selecting Outlast 2 optimization
+- Fixed ‘access denied’ error when selecting Playerunknown’s Battlegrounds optimization
+- Fixed ‘access denied’ error when selecting Prey optimization
+- Fixed ‘access denied’ error when selecting Pro Evolution Soccer 2018 optimization
+- Fixed ‘access denied’ error when selecting Rust Experimental optimization
+- Fixed ‘access denied’ error when selecting Sherlock Holmes The Devil’s Daughter optimization
+- Fixed ‘access denied’ error when selecting Sniper Ghost Warrior 3 optimization
+- Fixed ‘access denied’ error when selecting Tekken 7 optimization
+- Fixed ‘access denied’ error when selecting The Evil Within 2 optimization
+- Fixed ‘access denied’ error when selecting The Surge optimization
+- ReSwitch will now prompt for installation on the startup of Low Specs Experience
+- Updated file placement for 7 Days to Die optimization
+- Updated file placement for Alan Wake optimization
+- Updated file placement for Alan Wake’s American Nightmare optimization
+- Updated file placement for American Truck Simulator optimization
+- Updated file placement for Borderlands optimization
+- Updated file placement for Borderlands 2 optimization
+- Updated file placement for Borderlands The Pre-Sequel optimization
+- Updated file placement for Crysis optimization
+- Updated file placement for Crysis Warhead optimization
+- Updated file placement for Crysis 2 optimization
+- Updated file placement for Deus Ex Mankind Divided optimization
+- Updated file placement for Euro Truck Simulator 2 optimization
+- Updated file placement for Fallout 4 optimization
+- Updated file placement for Homefront optimization
+- Updated file placement for Homefront The Revolution optimization
+- Updated file placement for Just Cause 2 optimization
+- Updated file placement for Mafia 2 optimization
+- Updated file placement for Mafia 3 optimization
+- Updated file placement for Life is Strange Before the Storm optimization
+- Updated file placement for NBA 2k16 optimization
+- Updated file placement for NBA 2k17 optimization
+- Updated file placement for Outlast optimization
+- Updated file placement for Quantum Break optimization
+- Updated file placement for Remember Me optimization
+- Updated file placement for Resident Evil 5 optimization
+- Updated file placement for Resident Evil 6 optimization
+- Updated file placement for Resident Evil 7 optimization
+- Updated file placement for State of Decay optimization
+- Updated file placement for Titanfall optimization
+- Updated file placement for Titanfall 2 optimization
+- Updated file placement for Ghost Recon Wildlands optimization
+- Updated file placement for Watch Dogs 2 optimization
+- Updated file placement for Wolfenstein The New Order optimization
+- Updated file placement for Wolfenstein The Old Blood optimization
+- Updated file placement for WWE 2k15 optimization
+- Updated file placement for WWE 2k16 optimization
+- Updated file placement for WWE 2k17 optimization
+- Updated assembly information for Mass Effect 2 optimization
+- Updated assembly information for Mass Effect 3 optimization
+
+Low Specs Experience 6.0.9 (26/10/2017)
+- Fixed 'false optimization' loading for NSUNS 4
+- Fixed 'applying stock-low optimization for all methods' for Hellblade Senua's Sacrifice optimization
+
+Low Specs Experience 6.0.8 (23/10/2017)
+- Added optimization support for The Evil Within 2
+- Added optimization support for Life is Strange Before the Storm
+- Added optimization support for Hellblade Senua's Sacrifice
+- Updated file placement for Life is Strange optimization
+- Updated file placement for Tomb Raider optimization
+
+Low Specs Experience 6.0.7 (12/10/2017)
+- Fixed 'Unhandled Exception' error on startup of installation for Windows Vista pre-SP1-SP2
+- Fixed ‘high-ram usage’ of the software for some users - causing it to crash after some time
+- Improved stability of the software for all users — UI should feel more fluid now
+- Installation process shrank down to two steps instead of five pre-checks
+
+Low Specs Experience 6.0.6 (9/10/2017)
+- Added optimization support for The Surge optimization
+- Fixed ‘restore default’ message for Outlast 2 optimization
+- Fixed ‘restore default’ message for Playerunknonw’s Battlegrounds optimization
+- Fixed ‘restore default’ message for Mass Effect Andromeda optimization
+- Fixed ‘restore default’ message for Sniper Ghost Warrior 3 optimization
+- Fixed crash on startup for some users Windows 7 pre-SP1 users
+- Fixed non-clickable support button for some Windows 7 pre-SP1 users
+- Fixed incorrect window resolution for some Windows 7 pre-SP1 users
+- Updated file placement for Crysis 3 optimization
+- Updated file placement for Assassin’s Creed optimization
+- Updated file placement for Assassin’s Creed II optimization
+- Updated file placement for Assassin’s Creed III optimization
+- Updated file placement for Assassin’s Creed III Liberation HD optimization
+- Updated file placement for Assassin’s Creed IV Black Flag optimization
+- Updated file placement for Assassin’s Creed Rogue optimization
+- Updated file placement for Assassin’s Creed Syndicate optimization
+- Updated file placement for Assassin’s Creed Unity optimization
+- Updated file placement for Far Cry 4 optimization
+- Updated file placement for Far Cry Primal optimization
+- Updated file placement for Grand Theft Auto V optimization
+- Updated file placement for Hitman 2016 optimization
+- Updated file placement for Mass Effect optimization
+- Updated file placement for Mass Effect 2 optimization
+- Updated file placement for Mass Effect 3 optimization
+- Updated file placement for Project Cars optimization
+- Updated file placement for The Crew optimization
+- Updated file placement for The Sims 4 optimization
+- Updated file placement for Rainbow Six Siege optimization
+- Improved stability of the software for users with dual-core CPUs and less than 1GB of RAM
+
+Low Specs Experience 6.0.5 (2/10/2017)
+- Fixed problem with ReSwitch not forcing the right resolution when selecting
+- Removed the drop-down menu in the support section - replaced with a white clickable button
+- Removed EXIT buttons on advertisement pop-ups - replaced with new 'CONTINUE TO LSE' button
+- Fixed minor issues with the user-interface not allowing people to click certain buttons correctly
+
+Low Specs Experience 6.0.4 (29/9/2017)
+- Redesigned installation process with a simpler and more user-friendly interface
+- Redesigned uninstall process - more simple and user-friendly
+- Removed verification of the files on the startup of the Low Specs Experience
+
+Low Specs Experience 6.0.3 (28/9/2017)
+- Refined and polished user-interface - more clean and accessible
+
+Low Specs Experience 6.0.2 (24/9/2017)
+- Updated file placement for Alien Isolation optimization
+- Updated file placement for Aliens Colonial Marines optimization
+- Updated file placement for Crysis 3 optimization
+- Updated file placement for DiRT 4 optimization
+- Updated file placement for Dishonored 2 optimization
+- Updated file placement for Forza Horizon 3 optimization
+- Updated file placement for Goat Simulator optimization
+- Updated file placement for Just cause 3 optimization
+- Updated file placement for Mass Effect Andromeda optimization
+- Updated file placement for Nier: Automata optimization
+- Updated file placement for Outlast 2 optimization
+- Updated file placement for Playerunknown's Battlegrounds optimization
+- Updated file placement for Prey optimization
+- Updated file placement for Rust Experimental optimization
+- Updated file placement for Sherlock Holmes The Devil's daughter optimization
+- Updated file placement for Sniper Ghost Warrior 3 optimization
+- Updated file placement for Tekken 7 optimization
+- Updated file placement for Tomb Raider Reboot 2013 optimization
+
+Low Specs Experience 6.0.1 (5/9/2017)
+- Replaced complete user-interface with half V5 and half V6 to create a whole new V6 UI
+- Fixed 'EXIT button not working' on the ReSwitchGUI
+
+Low Specs Experience 6.0.0 (26/8/2017)
+- Added all new redesigned RagnoTech™ ReSwitch
+- Removed pop-ups on RagnoTech™ control panel that loaded after selecting the method of optimization 
+- Removed pop-ups that let you choose the manual optimization method or automatic optimization method
+- Removed the pop-up strap-designed page from the startup of the software
+- Redesigned user-interface for home, optimize, features and support pages
+- Shrinking number of not needed options and pages in the software user-interface
+
+Low Specs Experience 5.1.0 (5/8/2017)
+- Added optimization support for Tekken 7
+- Added pop-up on startup to distinguish free version from premium version
+
+Low Specs Experience 5.0.9 (20/7/2017)
+- Added optimization support for Dishonored 2
+- Added optimization support for DiRT 4
+- Added optimization support for Forza Horizon 3
+
+Low Specs Experience 5.0.8 (27/6/2017)
+- Added optimization support for Prey
+- Added prizes & offers tab in the Low Specs Experience
+- Added text annotation tells you to start the RagnoTech™ control panel as administrator
+- Added RagnoTech™ offline premium membership activation when the activation server is offline
+- Changed color of the navigation buttons to bring it to life - little brighter
+- Multiple options in the support section replaced with a button that lands on contact website section
+
+Low Specs Experience 5.0.7 (16/6/2017)
+-Added optimization support for Playerunknown's Battlegrounds
+
+Low Specs Experience 5.0.6 (14/6/2017)
+- Fixed an issue with the integrity of files check on startup loading twice for some users
+- Fixed problem with CFLite.dll file missing that pops-up after the installation finishes
+- Improved stability and performance of the software with double RagnoTech™ double checker
+- Introduced all new and fresh RagnoTech™ installation with enabled double files checker
+- Minor additional preparations for the upcoming updates
+
+Low Specs Experience 5.0.5 (12/6/2017)
+- Added new RagnoTech™ 'One-Way' file system
+- Complete overhaul of background files processing
+- fixed problems with administrative access and extraction for 7-Zip files
+- Fixed problems with update button showing 'specified file not found' error when clicked
+
+Low Specs Experience 5.0.4 (22/5/2017)
+- Added optimization support for NieR Automata
+- Added optimization support for Sniper Ghost Warrior 2
+
+Low Specs Experience 5.0.3 Stable Revision 1 (14/5/2017)
+- Added UI configuration check-up on startup to prevent in-software pages from displaying incorrectly
+- Fixed problem with installation not initializing correctly for some users
+- Redesigned installation process - one-click installation for simple and clean installation
+
+Low Specs Experience 5.0.3 Stable (8/5/2017)
+- Added new banner for the free version from where users can access the activation section
+- Redesigned support and requests section to better match what each button is about
+- Removed upgrade section and replaced with collaboration section which is coming soon
+- Other minor stability changes
+
+Low Specs Experience 5.0.2 Stable (3/5/2017)
+- Fixes the issue with startup manage window resolution mismatch
+- Fixes the issue with RAM usage on systems with less than 1GB of RAM
+- Fixes the crash issue preventing users from accessing the upcoming (BETA) page
+
+Low Specs Experience 5.0.1 Stable (26/4/2017)
+- Added optimization support for Outlast 2
+- Minor behind the scenes configurations and changes
+
+Low Specs Experience 5.0.0 Stable (15/4/2017)
+- Added fresh and all new installation process
+- Added RagnoTech™ manual optimizations (BETA)
+- Added manual optimizations for much-needed games (too many to list them all)
+- Additional tweaking and configuration for button precision
+- Dark Souls 3 optimization has been updated to support all game versions
+- Many background optimization changes and bug fixes for known issues
+- Redesigned premium activation land-page
+
+Low Specs Experience 4.8.8 Stable (30/3/2017)
+- Added optimization support for Mass Effect Andromeda
+- Fixed 'crash on startup' for some Windows 7 non-SP1 users
+
+Low Specs Experience 4.8.7 Stable (21/3/2017)
+- Added optimization support for Hitman
+- Various bug fixes and stability improvements
+
+Low Specs Experience 4.8.6 Stable (16/3/2017)
+- Added optimization support for Just Cause 3
+- Fixed the name for premium version shortcut
+
+Low Specs Experience 4.8.5 Stable (11/3/2017)
+- Added optimization support for Sherlock Holmes: The Devil's Daughter
+
+Low Specs Experience 4.8.4 Stable (8/3/2017)
+- Added all-new reworked installation process
+- Compatibility fixes for Mafia 3 optimization
+- Compatibility fixes for Paladins optimization
+- Minor bug and problem fixes
+
+Low Specs Experience 4.8.3 Stable (27/2/2017)
+- Compatibility fixes for GTA 4 + EFLC optimization
+- Compatibility fixes for GTA 5 optimization
+- Fixed 'false tutorial load' for Assassin's Creed 3
+- Fixed 'false tutorial load' for Assassin's Creed 3 Liberation HD
+- Fixed 'false tutorial load' for Assassin's Creed 4 Black Flag
+- Fixed 'false tutorial load' for Assassin's Creed Revelations
+- Fixed 'false tutorial load' for Assassin's Creed Rogue
+- Fixed 'false tutorial load' for Assassin's Creed Syndicate
+- Fixed 'false tutorial load' for Assassin's Creed Unity
+- Fixed 'false tutorial load' for GTA 5
+- Fixed 'false tutorial load' for Just Cause 2
+- Fixed 'false tutorial load' for Overwatch
+- Fixed 'false tutorial load' for Project CARS
+- Fixed 'false tutorial load' for The Crew
+- Fixed 'false tutorial load' for The Sims 4
+- Fixed 'false tutorial load' for Rainbow Six Siege
+- Minor changes to the RAM allocation and usage
+
+Low Specs Experience 4.8.2 Stable (18/2/2017)
+- Added optimization support for Aliens: Colonial Marines
+- Game name changed from Alien Isolation to Alien: Isolation
+
+Low Specs Experience 4.8.1 Stable (17/2/2017)
+- Added optimization support for Goat Simulator
+
+Low Specs Experience 4.8.0 Stable (16/2/2017)
+- Added optimization support for Alien Isolation
+- Added RagnoTech™ smart-update system - auto-update on startup
+- Fixed 'Restore Default button not working' for Rise of the Tomb Raider optimization
+
+Low Specs Experience 4.7.5 Final (16/2/2017)
+- Added an all-new and updated optimization processing method
+- Removed app manifest signature which prevented users from launching LSE on Windows Vista SP2
+- Other minor changes, bug fixes, and performance improvements
+
+Low Specs Experience 4.7.4 Stable (14/2/2017)
+- Added optimization support for Tomb Raider Reborn
+
+Low Specs Experience 4.7.3 Stable (13/2/2017)
+- Compatibility fixes for Far Cry Primal optimization
+- Fixed 'version number showing only numbers' under the EXIT button on the bootstrapper
+
+Low Specs Experience 4.7.2 Stable (12/2/2017)
+- Added optimization support for Rust Experimental
+- Compatibility fixes for Far Cry 4 optimization
+
+Low Specs Experience 4.7.1 Stable (11/2/2017)
+- Added optimization support for Resident Evil 7
+- Added optimization support for WWE 2k17
+- Bug fixes and performance improvements
+
+Low Specs Experience 4.7.0 Stable (10/2/2017)
+- Added optimization support for Deus Ex: Mankind Divided
+- Added all-new batch type installations to prevent the installation skipping
+- Minor bug fixes for some optimizations
+
+Low Specs Experience 4.6.5 (8/2/2017)
+- Added optimization support for Ghost Recon Wildlands
+- Game name changed from SplinterCell Conviction to Splinter Cell Conviction
+
+Low Specs Experience 4.6.4 (4/2/2017)
+- Auto-update system removed which was broken in India and Indonesia
+- Bug fixes and stability improvements
+
+Low Specs Experience 4.6.3 (3/2/2017)
+- Added bootstrapper to the startup of the Low Specs Experience
+- Fixed 'stuck at 'continue' and 'cancel' message when selecting the optimization
+- Other internal corrections for file managing
+
+Low Specs Experience 4.6.2 (31/1/2017)
+- Added all-new 7-zip compression method to save disk space
+- Added all-new auto-update system which will ensure all users are on the latest version
+- Added all-new requests section
+- Change from NET Framework 2.0 to NET Framework 4.5.2 was mandatory
+- Redesigned land page on startup
+- Redesigned proper uninstall manager
+- Redesigned user-interface for both main UI and optimization UIs (152 changes)
+- Redesigned registration page (BETA)
+- Terminated support for Windows XP operating system
+
+Low Specs Experience 4.6.1 (28/12/2016)
+- Addressing problems and issues with the missing files and incorrect installation fetching
+
+Low Specs Experience 4.6.0 (25/12/2016)
+- Added optimization support for Titanfall
+- Added optimization support for Titanfall 2
+- Compatibility fixes for Heroes of the Storm optimization
+- Re-added Dead Island SE optimization (*SE stands for standard edition)
+- Re-added Dead Island Riptide SE optimization (*SE stands for standard edition)
+- Re-added Sleeping Dogs SE optimization (*SE stands for standard edition)
+- Minor changes to the log-in section and interface in general (mostly buttons)
+
+Low Specs Experience 4.5.9 (21/12/2016)
+- Added optimization support for Alan Wake
+- Added optimization support for Alan Wake's American Nightmare
+- Minor corrections to the advertisements and sponsored messages
+- Low Specs Experience icon changes from orange to white
+
+Low Specs Experience 4.5.8 (20/12/2016)
+- Fixed 'black screen' issue with paladins optimization
+
+Low Specs Experience 4.5.7 (19/12/2016)
+- Added brand new land page and log-in section to log-in as a premium member
+- Custom (CRU managed) resolutions have been removed (no longer compatible with Windows 10)
+- Overhaul of the optimization installations - now using all-new Winrar silent installations
+- Overhaul of the ReSwitch installation - now using all-new Winrar silent installations
+- Fixed 'ultra-low optimization not working' for Quantum Break
+- Free and premium versions are now merged together
+- Other minor background processing changes
+
+Low Specs Experience 4.5.6 (7/12/2016)
+- Added optimization support for Just Cause 2
+- Compatibility fixes for Fallout 4 optimization
+- Minor changes to the user-interface
+- Reworked optimization for Wolfenstein The New Order
+- Reworked optimization for Wolfenstein The Old Blood
+- Updated list of donators as of 5th December 2016
+
+Low Specs Experience 4.5.5 (2/12/2016)
+- Added optimization support for Watch_Dogs 2
+- Added optimization support for State of Decay
+- Minor improvements to RAM management
+
+Low Specs Experience 4.5.4 (2/12/2016)
+- Fixes an issue where people could get stuck on startup of the free version.
+
+Low Specs Experience 4.5.3 (30/11/2016)
+- Added a short video showing how to disable UAC on Windows Vista
+- Additional configuration for ReSwitch installation
+- Pre-configurations for file compression to additionally preserve the download bandwidth
+
+Low Specs Experience 4.5.2 (29/11/2016)
+- Re-done code for ReSwitch installation, no more issues should occur.
+
+Low Specs Experience 4.5.1 (26/11/2016)
+- Added optimization support for 7 Days to Die
+- Fixed 'users getting stuck in a loop' within the ReSwitch installation
+
+Low Specs Experience 4.3.7 Stable (5/11/2016)
+- Compatibility fixes for Call of Duty Infinite Warfare optimization
+- Compatibility fixes for Call of Duty Modern Warfare Remastered
+
+Low Specs Experience 4.3.6 Stable (5/11/2016)
+- Added optimization support for Call of Duty Infinite Warfare
+- Fixed 'ultra-low optimization not showing' for Crysis 2 optimization
+- Fixed 'ultra-low optimization not showing' for Crysis 3 optimization
+
+Low Specs Experience 4.3.5 Stable (4/11/2016)
+- Added optimization support for Call of Duty Modern Warfare Remastered
+- Minor changes for the upcoming major update
+
+Low Specs Experience 4.3.4 Stable (31/10/2016)
+- Added optimization support for Dead or Alive 5 Last Round
+
+Low Specs Experience 4.3.3 Stable (29/10/2016)
+- Added RagnoTech™ optimization control center V3 design for all 140 optimizations
+- Added ultra-low optimization for Assassin's Creed 3
+- Added ultra-low optimization for Dead Rising Remastered
+- Added ultra-low optimization for Need for Speed Most Wanted
+- Added ultra-low optimization for Remember Me
+- Added ultra-low optimization for The Witcher 3 Wild Hunt
+- Added ultra-low optimization for The Division
+- Added ultra-low optimization for XCOM 2
+- Fixed 'Gone Home name showing on No Man's Sky optimization'
+- Fixed 'specific file not found' error for Battlefield 1 optimization
+- Fixed 'specific file not found' error for Call of Duty Black Ops optimization
+- Fixed 'specific file not found' error for Call of Duty Black Ops 3 optimization
+- Fixed 'specific file not found' error for Crysis optimization
+- Fixed 'specific file not found' error for Dead Rising 3 optimization
+- Fixed 'specific file not found' error for Gone Home optimization
+- Fixed 'specific file not found' error for League of Legends optimization
+- Fixed 'specific file not found' error for optimization
+- Fixed 'specific file not found' error for NSUNS 4 optimization
+- Fixed 'specific file not found' error for NSUNS Revolution optimization
+- Fixed 'specific file not found' error for No Man's Sky optimization
+- Fixed 'specific file not found' error for Rocket League optimization
+- Fixed 'specific file not found' error for Saints Row 4 optimization
+- Fixed 'specific file not found' error for The Crew optimization
+- Fixed 'specific file not found' error for Tree of Savior optimization
+- Fixed 'specific file not found' error for WWE 2k16 optimization
+
+Low Specs Experience 4.3.2 Stable (25/10/2016)
+- Added optimization support for Shadow Warrior 2
+- Added optimization support for Pro Evolution Soccer 2017
+- Fixed 'restore default button not working' for Wolfenstein The New Order optimization
+- Fixed 'restore default button not working' for Wolfenstein The Old Blood optimization
+- Fixed 'typo on the drop-down menu for' Sniper Elite games (Snipet > Sniper)
+- Updated list of donators as of the date 25th October 2016
+
+Low Specs Experience 4.3.1 Stable (20/10/2016)
+- Added optimization support for Paladins
+- Small preparations for the big maintenance update of Low Specs Experience
+
+Low Specs Experience 4.3.0 Stable (19/10/2016)
+- Added optimization support for Battlefield 1
+- Added new splash screen for the free version on startup
+- Other minor changes, bug fixes, and stability improvements
+
+Low Specs Experience 4.2.9 Stable Revision 1 (9/10/2016)
+- Compatibility fixes for Mafia 3 optimization (support for v1.01)
+
+Low Specs Experience 4.2.9 Stable (8/10/2016)
+- Added optimization support for Crysis Warhead
+- Added optimization support for Mafia 3
+- Added optimization support for Outlast
+
+Low Specs Experience 4.2.8 Stable (6/10/2016)
+- Added optimization support for The Witcher 2 Assassins of Kings Enhanced Edition
+- Fixed 'specified file not found' error for Overwatch optimization
+
+Low Specs Experience 4.2.7 Stable (4/10/2016)
+- Added optimization support for Dead Rising Remastered
+- Added optimization support for Quantum Break
+
+Low Specs Experience 4.2.6 Stable (3/10/2016)
+- Added optimization support for League of Legends
+- Compatibility fixes for Assassin's Creed 3 optimization
+- Compatibility fixes for Project CARS (added support for GOTY edition)
+- Fixed startup crash for some optimizations on early Windows 10 builds
+
+Low Specs Experience 4.2.5 Stable (2/10/2016)
+- Added optimization support for Tree of Savior
+- Fixed 'ReSwitch won't start' issue
+- Minor background changes in terms of access speed and file compression
+
+Low Specs Experience 4.2.4 Stable (28/9/2016)
+- Added optimization support for Rise of the Tomb Raider
+- Fixed 'can't click on optimize button' bug with GTA 4 + EFLC optimization
+
+Low Specs Experience 4.2.3 Stable (22/9/2016)
+- Added optimization support for NBA 2k17
+
+Low Specs Experience 4.2.2 Stable (21/9/2016)
+- Fixed problem with ReSwitch installation for people with "two-word" PC usernames
+
+
+Low Specs Experience 4.2.1 Stable (20/9/2016)
+- Fresh new design for all the optimizations - V2 control center
+- Minor changes to the way advertisements are shown showing
+- Other bug fixes and stability improvements
+
+
+Low Specs Experience 4.2.0 Stable (18/9/2016)
+- Minor pre-processing changes and behind the scenes configuration
+
+Low Specs Experience 4.1.9 Experimental Stable (17/9/2016)
+- Added tutorial for The Crew on how to change the graphics card model ID
+- Minor changes in the design and preparations for the v4.2.0 launch
+- Updated terms & conditions
+
+Low Specs Experience 4.1.9 Stable Revision 1 (16/9/2016)
+- Added support for FIFA 17 and FIFA 17 Demo
+- Compatibility fixes for The Crew optimization
+
+Low Specs Experience 4.1.9 Stable (11/9/2016)
+- Fixed 'Saints Row 4 optimization loading ATS optimization' bug
+-Re-designed advertisement method for Free Version (removed pop-up advertisements)
+
+Low Specs Experience 4.1.8 Stable (10/9/2016)
+- Added optimization support for Homefront The Revolution
+- Fixed 'Gone Home won't optimize on Windows Vista systems' bug
+
+Low Specs Experience 4.1.7 Stable (7/9/2016)
+- Minor changes to the user-interface
+- Minor changes to the background processing
+- Other bug fixes and stability improvements
+
+Low Specs Experience 4.1.6 Stable (6/9/2016)
+- Added optimization support for No Man's Sky
+- Added optimization support for Gone Home
+- Compatibility fixes for Far Cry 3 optimization
+
+Low Specs Experience 4.1.5 Stable (2/9/2016)
+- Added additional buttons on the home page for chat and steam group
+- Fixed 'specified file not found' error for Deadpool optimization
+
+Low Specs Experience 4.1.4 Stable (1/9/2016)
+- Minor changes to the user-interface of Low Specs Experience
+- Shut down premium ultima version - premium pro and ultima memberships = pro membership
+
+Low Specs Experience 4.1.3 Stable (29/8/2016)
+- Added optimization support for Heroes of the Storm
+- Minor changes to the background files processing - fewer files - faster point and open
+
+Low Specs Experience 4.1.2 Stable (27/8/2016)
+- Fresh new greenish simple and easy to use interface
+- Minor changes to pop-up advertisements - testing a new way of advertising
+
+Low Specs Experience 4.1.1 Stable (23/8/2016)
+- Changed the way extraction of files work - switched from 7zip to winrar
+
+Low Specs Experience 4.1.0 Stable (20/8/2016)
+- Fresh start and refresh of Low Specs Experience
+
+Low Specs Experience 4.0.1 Beta Revision 2 (29/6/2016)
+- Compatibility fixes for The Witcher 3 optimization
+- Minor bug fixes for files arrangement
+
+Low Specs Experience 4.0.1 Beta Revision 1 (27/6/2016)
+- Compatibility fixes for Rocket League optimization (support for v1.19)
+- Fixed 'stuck in optimization tab' on certain Windows Vista builds
+- Small changes for background files management
+- Small bug fixes and stability improvements
+
+Low Specs Experience 4.0.1 Beta (20/6/2016)
+- Fixed 'specified file not found' error for GTA 4 + EFLC optimization
+- Fixed 'specified file not found' error for GTA 5 optimization
+- Fixed 'specified file not found' error for Homefront optimization
+- Fixed 'specified file not found' error for Life is Strange optimization
+- Fixed 'specified file not found' error for Mad Max optimization
+- Fixed 'specified file not found' error for Mass Effect optimization
+- Fixed 'specified file not found' error for Mass Effect 2 optimization
+- Fixed 'specified file not found' error for Mass Effect 3 optimization
+
+Low Specs Experience 4.0.0 Beta (20/6/2016)
+- Complete redesign of user-interface
+- Fixes for all known "specified file not found" errors
+- Fixed and updated all 120 optimizations
+- The major overhaul of the startup process - no delay on startup
+- Reduced number of advertisements as much as possible
+
+Low Specs Experience 3.6.5 Stable (10/6/2016)            
+- Added optimization support for Overwatch
+- Added ultra-low optimization for Mirror's Edge Catalyst
+
+Low Specs Experience 3.6.2 Stable Revision 2 (9/6/2016)
+- Added optimization support for Mirror's Edge Catalyst
+
+Low Specs Experience 3.6.2 Stable Revision 1 (8/6/2016)
+- Request optimizations now available in free and starter versions of Low Specs Experience
+
+Low Specs Experience 3.6.2 Stable (7/6/2016)
+- Added optimization support for SMITE
+- Resized giveaway pop-up (wasn't closable on lower resolution monitors)
+
+Low Specs Experience 3.6.0 Stable Revision 1 (3/6/2016)
+- Fixed problem where the setup creates 800x600 ReSwitch instead of 1024x768
+
+
+Low Specs Experience 3.6.0 Stable (3/6/2016)
+- Added optimization support for Far Cry Primal
+- Updated wall of fame list as of 22nd June 2016
+
+Low Specs Experience 3.5.8 Stable (1/6/2016)
+- Added optimization support for Dead Island DE (*DE stands for Definitive Edition)
+- Added optimization support for Dead Island Riptide DE (*DE stands for Definitive Edition)
+- Added remove ads button which leads to the premium membership page
+- Added anniversary sale advert
+- Updated info on the status tab
+
+Low Specs Experience 3.5.2 Beta (28/5/2016)
+- Added optimization support for Need for Speed Reboot
+- Added optimization support for Plants vs Zombies GW2
+- Added loading screen on startup
+- Added startup launcher
+- Added 'buy premium' page on exit
+- Added 'Wall of Fame' tab
+- Added F.A.Q button
+- Added Co-Operate button
+- Other minor bug fixes and stability improvements for Windows 10 latest builds
+- Redesigned live chat tab for premium pro members - supporting for Kik Support
+
+Low Specs Experience 3.4.1 Beta (27/5/2016)
+- Under the hood changes backed for upcoming changes
+- Fixed 'specified file not found' error with Assassin's Creed Syndicate optimization
+- Improved 'find-file' and 'select-file' indicators
+
+Low Specs Experience 3.3.5 Beta Revision 3 (25/5/2016)
+- Fixed 'restore default button not working' for Assassin's Creed 4 Black Flag optimization
+
+Low Specs Experience 3.3.5 Beta Revision 2 (24/5/2016)
+- Added advertisement for premium pro upgrade discount
+
+Low Specs Experience 3.3.5 Beta Revision 1 (24/5/2016)
+- Added ultra compression method to save download bandwidth
+
+Low Specs Experience 3.3.5 Beta (23/5/2016)
+- Added new pop-up window for upcoming giveaways
+- Added two new premium versions: Basic and Ultima
+- Beta tests for a few background processes pushed to Beta test release
+- Changed text under upgrade page
+- Fixed an issue where update link won't load for some users
+- Removed 'upgrade to premium' button from the bottom of the software
+- Redesigned pop-up window for G2A cheap games, now loads together with giveaway pop-up
+- Redesigned premium memberships page on the website
+- Other major bug fixes and stability improvements
+
+Low Specs Experience 3.2.8 Stable (19/5/2016)
+- Added optimization support for Sniper Ghost Warrior
+- Added optimization support for Sniper Ghost Warrior 2
+- Added optimization support for Remember me
+- Fixed 'specified file not found' error with Assassin's Creed Syndicate optimization
+- Fixed 'Mass Effect optimization loading instead of FIFA 15'
+
+Low Specs Experience 3.2.2 Stable (12/5/2016)
+- Added optimization support for The Division
+- Fixed an issue where Low Specs Experience may restart for Windows Vista users
+
+Low Specs Experience 3.1.7 Stable (7/5/2016)
+- Added optimization support for Mass Effect
+- Added optimization support for Mass Effect 2
+- Added optimization support for Mass Effect 3
+- Added optimization support for Pro Evolution Soccer 2013
+- Added optimization support for Pro Evolution Soccer 2014
+
+Low Specs Experience 3.1.1 Stable (4/5/2016)
+- Added optimization support for Homefront
+- Added optimization support for Sniper Elite Nazi Zombie Army
+- Added optimization support for Sniper Elite Nazi Zombie Army 2
+- Minor bug fixes and stability improvements
+
+Low Specs Experience 3.0.7 Stable (29/4/2016)
+- Added optimization support for ARMA 3
+
+Low Specs Experience 3.0.6 Stable (27/4/2016)
+- Added optimization support for Deadpool
+- Added optimization support for Splinter Cell Conviction
+- Added optimization support for Splinter Cell Blacklist
+- Fixed '1440x810 stock-low optimization not working' for Anno 2205
+- Fixed background operation issue where Low Specs Experience would crash on Windows Vista
+
+Low Specs Experience 3.0.1 Alpha (26/4/2016)
+-Fixed an issue where users with Free Version couldn't click on Optimize button
+-Fixed an issue with Resident Evil 6 optimization, where for some users optimization won't apply
+
+
+Low Specs Experience 3.0.0 Alpha (25/4/2016)
+- Added optimization support for Resident Evil 5
+- Added optimization support for Resident Evil 6
+- Jump release to Low Specs Experience 3
+
+Low Specs Experience 2.2.6 Stable (19/4/2016)
+- Added brand new optimization selection menu
+- Added optimization support for Need for Speed Hot Pursuit
+- Added optimization support for Need for Speed Shift
+- Added optimization support for Need for Speed Shift 2 Unleashed
+- Added optimization support for Dragon Ball Xenoverse
+- Added optimization support for NSUNS Revolution
+- Added optimization support for The Crew
+- Minor changes in terms of text mismatching
+- Fixed messages where instead of message "ERROR$%CRC%" would appear
+
+Low Specs Experience 2.2.0 Stable (15/4/2016)
+- Premium starter and pro versions released
+
+Low Specs Experience 2.1.9 Beta (14/4/2016)
+- Added optimization support for Dark Souls 3
+- Minor changes for the upcoming releases backed
+- Preparations for out of the beta stable release
+
+Low Specs Experience 2.1.6 Beta (11/4/2016)
+- Added -we are listening tab (basically a fancy feedback)
+- Minor user-interface text changes
+
+Low Specs Experience 2.1.5 Beta (6/4/2016)
+- Added tier 1, tier 2, and tier 3 giveaways prior to VIP and PREMIUM membership releases
+- Fixed access violation problem for Windows Vista and Windows 7 users
+- Fixed G2A message appearance - now set to the sub-modal page mode
+- Preparations for VIP & Premium memberships are backed - set to wait for the release
+- Premium button under drop-down menu is now working
+
+Low Specs Experience 2.0.1 Beta (1/4/2016)
+- Fixed 'crash on startup' for Dragon Age Inquisition optimization
+- Fixed 'Batman Arkham Knight and Origins not showing' for some users
+
+Low Specs Experience 2.0.0 Beta (25/3/2016)
+- Added optimization support for WWE 2k16
+- Redesigned user interface
+- Redesigned Resolution Switcher
+- Redesigned file installation process
+- Redesigned file verifier/checker (reduced delay from 10 seconds to 3 seconds)
+- Reduced number of adfly pop-up ads (limited to 3)
+- Fixed problem with various game optimizations (55 problems backed)
+- Redesigned optimizations for various games (87 changes)
+- Preparations for Premium edition are backed
+- Other major changes and bug fixes (too many to list)
+
+Low Specs Experience 1.7.5 Stable (7/3/2016)
+- Added brand new V2 ReSwitch powered by WINRAR Labs autorun
+- Added new icon to LSE.exe
+- Fixed 'game won't start after restoring to default' for Batman Arkham Knight
+- Major bug fixes in terms of file accessibility
+- Background preparations for the upcoming updates
+
+Low Specs Experience 1.6.0 Stable (25/2/2016)
+- Fixed 'specified file not found' error for some users after selecting the optimization
+- Fixed 'crash bug' happening while the installation is in progress (installation freezing)
+
+Low Specs Experience 1.5.3 Stable (10/2/2016)
+- Added optimization support for XCOM 2
+
+Low Specs Experience 1.5.2 Stable (9/2/2016)
+- Added optimization support for NSUNS 4
+- Crash after clicking X on all the pop-ups
+- Fixed 'game's window not rendering correctly' bug for Dead Rising 3 optimization
+- Loading time drastically improved on some Intel and AMD processors with 4 or more cores
+
+Low Specs Experience 1.5.1 Stable (8/2/2016)
+- Added optimization support for American Truck Simulator
+- Background issues and problems backed
+
+Low Specs Experience 1.4.3 Alpha Revision 1 (30/1/2016)
+- Removed auto-update feature (BETA)
+
+Low Specs Experience 1.4.3 Alpha (18/1/2016)
+- Added optimization support for Assassin's Creed
+- Added optimization support for Assassin's Creed Brotherhood
+- Added optimization support for Assassin's Creed 2
+- Added optimization support for Assassin's Creed 3
+- Added optimization support for Assassin's Creed 3 Liberation HD
+- Added optimization support for Assassin's Creed 4 Black Flag
+- Added optimization support for Assassin's Creed Revelations
+- Added optimization support for Assassin's Creed Rogue
+- Added optimization support for Assassin's Creed Syndicate
+- Added optimization support for Assassin's Creed Unity
+- Added optimization support for Call of Duty Advanced Warfare
+- Added optimization support for Call of Duty Black Ops
+- Added optimization support for Call of Duty Black Ops 2
+- Added optimization support for Call of Duty Black Ops 3
+- Added optimization support for Call of Duty Ghosts
+- Added optimization support for Payday 2
+- Added optimization support for Saints Row Gat out of Hell
+- Added optimization support for Saints Row 4
+- Added optimization support for Saints Row The Third
+- Added optimization support for Sleeping Dogs SE (*SE stands for standard edition)
+- Added optimization support for Sleeping Dogs DE (*DE stands for definitive edition)
+- Added optimization support for The Amazing Spiderman 2
+- Added optimization support for The Witcher 3 Wild Hunt
+- Added the 'GO BACK' button on all optimizations
+- Optimization ratings removed (server currently offline)
+
+Low Specs Experience 1.3.8 Alpha (11/1/2016)
+- Added optimization support for Batman Arkham Origins
+- Added optimization support for Batman Arkham Knight
+- Added optimization support for Battlefield Bad Company 2
+- Added optimization support for Dark Souls
+- Added optimization support for Dark Souls 2
+- Added optimization support for Dead Rising 3
+- Added optimization support for DIRT Rally
+- Added optimization support for Far Cry 4
+- Added optimization support for Mad Max
+- Added optimization support for Mortal Kombat X
+- Added optimization support for Need for Speed Most Wanted
+- Added optimization support for Need for Speed Rivals
+- Added optimization support for Pro Evolution Soccer 2015
+- Added optimization support for Pro Evolution Soccer 2016
+- Added optimization support for Race Driver GRID Autosport
+- Added optimization support for Rocket League
+- Added optimization support for Star Wars Battlefront
+- Added optimization support for Wolfenstein The New Order
+- Added optimization support for Wolfenstein The Old Blood
+- Added optimization support for WWE 2K15
+- Redesigned support tab (separating tech support from help desk)
+- Redesigned game optimization selection menu
+- Added "TOP RATED" and "MOST POPULAR" tabs (featuring 10 most optimized games)
+- Added promotions from partners (G2A.COM cheap games)
+
+Low Specs Experience 1.2.5 Alpha (7/1/2016)
+- Added optimization support for Anno 2205
+- Added optimization support for Bioshock Infinite
+- Added optimization support for Company of Heroes 2
+- Added optimization support for Dead Island SE
+- Added optimization support for Dead Island Riptide SE
+- Added optimization support for Fallout New Vegas
+- Added optimization support for Fallout 4
+- Added optimization support for Far Cry 3
+- Added optimization support for Far Cry 3 Blood Dragon
+- Added optimization support for GTA 5
+- Added optimization support for Mafia 2
+- Added optimization support for NBA 2K16
+- Added optimization support for Project CARS
+- Added optimization support for Tom Clancy's Rainbow Six Siege
+- Added optimization support for Race Driver GRID 2
+- Added optimization support for Saint Seiya Soldiers' Soul
+- Added optimization support for Sniper Elite V2
+- Added optimization support for Sniper Elite 3
+- Added optimization support for TES 5 Skyrim
+- Added optimization support for Watch_Dogs
+- Fixed message under community tab showing "accouts" instead of "accounts"
+- Redesigned game optimization selection menu
+- Removed date and time of rating updates data (moved to the home page)
+
+Low Specs Experience 1.1.6 Alpha (4/1/2016)
+- Added optimization support for Battlefield 3
+- Added optimization support for Battlefield 4
+- Added optimization support for Borderlands
+- Added optimization support for Borderlands 2
+- Added optimization support for Borderlands The Pre Sequel
+- Added optimization support for Crysis
+- Added optimization support for Crysis 3
+- Added optimization support for Dragon Age Inquisition
+- Added optimization support for Dying Light
+- Added optimization support for Far Cry 2
+- Added optimization support for FIFA 15
+- Added optimization support for FIFA 16
+- Added optimization support for Plants vs Zombies Garden Warfare
+- Added optimization support for The Sims 4
+- Added optimization support for The Evil Within
+- Fixed 'Crysis 2 optimization loading GTA 4 UnComplier instead of correct one'
+- Fixed overlay load (previously causing an incorrect load of content while using lower resolutions)
+- RAM and CPU usage reduced to normal values (previously causing Low Specs Experience to crash)
+- Changelog file moved from pop-up after installation to the rar package file
+
+Low Specs Experience 1.0.0 Pre-Alpha (1/1/2016)
+- Base release of the Low Specs Experience with optimization support for five games
+- Available optimization support for Battlefield Hardline
+- Available optimization support for Crysis 2
+- Available optimization support for Euro Truck Simulator 2
+- Available optimization support for GTA 4 + EFLC
+- Available optimization support for Life is Strange

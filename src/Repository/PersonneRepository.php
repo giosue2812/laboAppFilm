@@ -19,6 +19,13 @@ class PersonneRepository extends ServiceEntityRepository
         parent::__construct($registry, Personne::class);
     }
 
+    public function findName($name)
+    {
+        return $this->createQueryBuilder('n')
+            ->setParameter('n:',$name)
+            ->orderBy('n.nom','ASC');
+    }
+
     // /**
     //  * @return Personne[] Returns an array of Personne objects
     //  */
