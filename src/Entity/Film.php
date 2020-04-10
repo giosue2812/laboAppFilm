@@ -30,7 +30,7 @@ class Film
     private $description;
 
     /**
-     * @Serializer\Groups({"film_detail"})
+     * @ORM\Column(type="date",nullable=true)
      */
     private $date_sortie;
 

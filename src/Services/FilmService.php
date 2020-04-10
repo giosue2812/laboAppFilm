@@ -8,6 +8,7 @@ use App\Entity\ActeurFilm;
 use App\Entity\Film;
 use App\Entity\Personne;
 use App\Models\FilmForm;
+use App\Repository\ActeurFilmRepository;
 use App\Repository\FilmRepository;
 use App\Repository\PersonneRepository;
 use App\Utils\MapperAuto;
@@ -29,17 +30,23 @@ class FilmService extends AbstractController
      * @var PersonneRepository $repositoryPersonne;
      */
     private $repositoryPersonne;
+
+    /**
+     * @var ActeurFilmRepository $repositoryActeurFilm
+     */
+    private $repositoryActeurFilm;
     /**
      * @var MapperAuto $mapperAuto
      */
     private $mapperAuto;
 
-    public function __construct(EntityManagerInterface $manager, FilmRepository $repository, MapperAuto $mapperAuto, PersonneRepository $personneRepository)
+    public function __construct(EntityManagerInterface $manager, FilmRepository $repository, MapperAuto $mapperAuto, PersonneRepository $personneRepository,ActeurFilmRepository $acteurFilmRepository)
     {
         $this->manager = $manager;
         $this->repository = $repository;
         $this->mapperAuto = $mapperAuto;
         $this->repositoryPersonne = $personneRepository;
+        $this->repositoryActeurFilm = $acteurFilmRepository;
     }
 
     public function list()
@@ -49,7 +56,9 @@ class FilmService extends AbstractController
 
     public function detail($id)
     {
-        return $film = $this->repository->find($id);
+        $film = $this->repository->find($id);
+        $acteurFilm = $this->repositoryActeurFilm->findOneBy(['films'=> 2]);
+        return $acteurFilm;
     }
 
     public function insert(FilmForm $filmForm)
