@@ -57,8 +57,7 @@ class FilmService extends AbstractController
     public function detail($id)
     {
         $film = $this->repository->find($id);
-        $acteurFilm = $this->repositoryActeurFilm->findOneBy(['films'=> 2]);
-        return $acteurFilm;
+        return $this->repositoryActeurFilm->findOneBy(['Films'=>$film]);
     }
 
     public function insert(FilmForm $filmForm)
