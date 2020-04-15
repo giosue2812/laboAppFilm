@@ -48,7 +48,7 @@ class FilmController extends AbstractFOSRestController
     /**
      * @param Request $request
      * @return FilmForm|UnregisteredMappingException|\Exception|mixed
-     * @Rest\Post(path="/api/films/insert",name="film_insert")
+     * @Rest\Post(path="/api/films/insert")
      * @Rest\View()
      */
     public function insertAction(Request $request)
@@ -64,7 +64,7 @@ class FilmController extends AbstractFOSRestController
         {
              $this->service->insert($form->getData());
         }
-        return 'Erreur';
+        return $filmForm;
     }
 
     /**

@@ -6,7 +6,8 @@ namespace App\Services;
 
 use App\Entity\ActeurFilm;
 use App\Entity\Film;
-use App\Entity\Personne;
+use App\Models\DTO\FilmDetailDTO;
+use App\Models\DTO\FilmListDTO;
 use App\Models\FilmForm;
 use App\Repository\ActeurFilmRepository;
 use App\Repository\FilmRepository;
@@ -51,13 +52,18 @@ class FilmService extends AbstractController
 
     public function list()
     {
-        return $this->repository->findAll();
+        $film = $this->repository->findAll();
+        return array_map(function($item){
+            return new FilmListDTO($item);
+        },$film);
     }
 
     public function detail($id)
     {
         $film = $this->repository->find($id);
-        return $this->repositoryActeurFilm->findOneBy(['Films'=>$film]);
+        $acteurFilmFind = $this->repositoryActeurFilm->findOneBy(['Films'=>$film]);
+        $realisateurs = $this->repositoryPersonne->find($film->getRealisateurs());
+        return new FilmDetailDTO($film,$realisateurs,$acteurFilmFind);
     }
 
     public function insert(FilmForm $filmForm)

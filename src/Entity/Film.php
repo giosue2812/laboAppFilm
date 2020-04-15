@@ -50,7 +50,6 @@ class Film
      */
     private $realisateurs;
 
-
     public function getId(): ?int
     {
         return $this->id;
